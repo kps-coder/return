@@ -110,6 +110,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 .btns-wrap {margin-top:55px; text-align: center;}
 .btn-counsel {display: inline-block; max-width: 422px; height:100px; cursor: pointer; color:#fff;}
+.btn-counsel img {width: 100%;}
 
 
 .title {margin:0 auto; text-align: center; color:#fff;}
