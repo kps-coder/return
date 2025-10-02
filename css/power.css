@@ -131,6 +131,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 /* sec02 */
 .sec-cont02 {background: #060000 url(../images/);}
+.sec-cont02 .sec-inner {padding-bottom: calc(140px / 1400px * 100%);}
 .sec02-title {display: block; width: 100%; max-width: calc(850px / var(--max-width) * 100%); margin:0 auto calc(88px / var(--max-width) * 100%);}
 .sec02-list > li {position: relative; display: flex; align-items: center; justify-content: center; aspect-ratio: 1280 / 276;}
 .sec02-list > li img {position: absolute; transform: translateX(-70%); max-width: calc(500px / 1400px * 100%);}
