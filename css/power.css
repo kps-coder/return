@@ -46,7 +46,6 @@ input:-webkit-autofill:active {
 a { font-size: inherit; color: inherit; text-decoration:none; cursor:pointer; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 a, dl, dt, dd, ul, li, button, span, div, p { -webkit-appearance: none; appearance: none; box-shadow: none; border: none; border-radius: 0; -webkit-tap-highlight-color: rgba(0,0,0,0);}
 a.link { display: block; }
-img { width: 100%; height: auto; }
 ul, ol, li, dl, dt, dd { list-style:none; }
 
 blockquote, q { quotes:none; }
@@ -112,8 +111,6 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .btns-wrap {margin-top:55px; text-align: center;}
 .btn-counsel {display: inline-block; max-width: 422px; height:100px; cursor: pointer; color:#fff;}
 
-img {width: 100%;}
-
 
 .title {margin:0 auto; text-align: center; color:#fff;}
 
@@ -133,7 +130,9 @@ textarea {width: 100%; height:160px; padding:0 30px; border:1px solid #cccccc; r
 .radio-btn input:checked + label {color:#fff; font-weight: bold; background-color: var(--primary-color);}
 
 .sec-info {padding:var(--px-large) 0; background-color: #170103;}
-.img-info {width: 100%; max-width: 945px; margin:0 auto;}
+.sec11-title {margin:0 auto; text-align: center;}
+.img-info {width: 100%; margin:0 auto; text-align: center;}
+.info-title {display: inline-block; margin-bottom:25px;}
 
 /* pc */
 @media screen and (min-width:1401px) {
@@ -147,6 +146,8 @@ textarea {width: 100%; height:160px; padding:0 30px; border:1px solid #cccccc; r
 
 /* mo */
 @media screen and (max-width:1400px) {
+  img {width: 100%;}
+
   .sec-inner {padding:0 20px;}
   .form-wrap {padding:40px 20px 25px; background-color: #fff;}
   .form-col {padding:10px 0;}
