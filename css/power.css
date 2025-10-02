@@ -96,12 +96,13 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 @media screen and (max-width:768px) {
   :root {
     --max-width: 768px;
+    --px-large : 40px;
   }
 }
 
 @media screen and (max-width:430px) {
   :root {
-    --max-width: 430px;
+    --max-width: 430px;    
     --side-padding : 20px;
   }
 }
@@ -112,7 +113,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont01 {aspect-ratio: 1918 / 1207; background: url(../images/sec01_bg.jpg) no-repeat center / cover;}
 .sec-cont01 .sec-inner {height: 100%; padding:calc(95px / 1918px * 100%) 0;}
 .sec01-title {display: block; width: 100%; max-width: calc(100% * .3); margin:0 auto;}
-.sec01-text {position: absolute; bottom:calc(115px / 1918px * 100%); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(428px / 1918px * 100%);}
+.sec01-text {position: absolute; bottom:calc(115px / 1918px * 100%); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(100% * .3);}
 
 @media screen and (max-width:1400px) {
   .sec-cont01 {aspect-ratio: 1400 / 1207; background: url(../images/sec01_bg_mo.jpg) no-repeat center / cover;}
@@ -122,7 +123,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont02 {background: #060000 url(../images/);}
 .sec02-title {display: block; width: 100%; max-width: calc(850px / var(--max-width) * 100%); margin:0 auto;}
 
-.btns-wrap {margin-top:55px; text-align: center;}
+.btns-wrap {margin-top:calc(55px / 1400px * 100vw); text-align: center;}
 .btn-counsel {display: inline-block; max-width: calc(422px / var(--max-width) * 100%); cursor: pointer; color:#fff;}
 .btn-counsel img {width: 100%;}
 
@@ -131,7 +132,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 .sec-form {background: var(--primary-color) url(../images/sec11_bg.jpg) no-repeat center 0 / cover;}
 .sec-form .sec-inner {padding-bottom: 0;}
-.sec-form-title {display: block; max-width: calc(529px / var(--max-width) * 100%); margin: 0 auto calc(80px / 1400px * 100%);}
+.sec-form-title {display: block; max-width: calc(529px / var(--max-width) * 100%); margin: 0 auto calc(80px / 1400px * 100vw);}
 .form-col {display: flex;}
 .form-col > label {display: flex; align-items: center; min-width:80px; padding-right:10px; height: var(--input-height);}
 
