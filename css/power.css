@@ -81,6 +81,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   --primary-color : #761411;
   --input-height : 67px;
   --px-large : 120px;
+  --side-padding : 40px;
   --max-width:1400px;
 }
 
@@ -98,7 +99,14 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   }
 }
 
-.sec-inner {position: relative; padding:var(--px-large) 20px;}
+@media screen and (max-width:430px) {
+  :root {
+    --max-width: 430px;
+    --side-padding : 20px;
+  }
+}
+
+.sec-inner {position: relative; padding:var(--px-large) var(--side-padding);}
 
 /* sec01 */
 .sec-cont01 {aspect-ratio: 1918 / 1207; background: url(../images/sec01_bg.jpg) no-repeat center / cover;}
@@ -106,9 +114,13 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec01-title {display: block; width: 100%; max-width: calc(409px / 1918px * 100%); margin:0 auto;}
 .sec01-text {position: absolute; bottom:calc(115px / 1918px * 100%); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(428px / 1918px * 100%);}
 
+@media screen and (max-width:1400px) {
+  .sec-cont01 {aspect-ratio: 1400 / 1207; background: url(../images/sec01_bg_mo.jpg) no-repeat center / cover;}
+}
+
 /* sec02 */
 .sec-cont02 {background-color: #060000;}
-.sec02-title {display: block; width: 100%; max-width: calc(850px / 1918px * 100%); margin:0 auto;}
+.sec02-title {display: block; width: 100%; max-width: calc(850px / var(--max-width) * 100%); margin:0 auto;}
 
 .btns-wrap {margin-top:55px; text-align: center;}
 .btn-counsel {display: inline-block; max-width: calc(422px / var(--max-width) * 100%); cursor: pointer; color:#fff;}
@@ -134,10 +146,12 @@ textarea {width: 100%; height:160px; padding:0 30px; border:1px solid #cccccc; r
 .radio-btn input + label {display: flex; align-items: center; justify-content: center; width: 100%; height: var(--input-height); border:1px solid #cccccc; cursor: pointer;}
 .radio-btn input:checked + label {color:#fff; font-weight: bold; background-color: var(--primary-color);}
 
+/* sec12 제품상세 */
 .sec-info {background-color: #170103;}
 .sec11-title img {display: block; max-width: 280px; margin:0 auto;}
 .img-info {width: 100%; margin:0 auto; text-align: center;}
-.info-title {display: inline-block; margin-bottom:25px;}
+.info-title {display: inline-block; width: 100%; max-width: calc(942px / var(--max-width) * 100%); margin-bottom:25px;}
+.sec12-detail {display: inline-block; width: 100%; max-width: calc(800px / var(--max-width) * 100%);}
 
 /* pc */
 @media screen and (min-width:1401px) {
