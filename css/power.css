@@ -150,8 +150,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec04 */
 .sec-cont04 {position: relative; aspect-ratio: 1920 / 1000; background: url(../images/sec04_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont04::before {position: absolute; bottom:0; content: ''; display: block; width: 100%; height:137px; background-color: #a3781b ;}
-.sec-cont04 .sec-inner {padding-top:calc(95px / 1400px * 100%);}
-.sec04-title {display: block; width: 100%; max-width: calc(100% * .65); margin:0 auto calc(65px / 1400px * 100%);}
+.sec-cont04 .sec-inner {height: 100%; padding-top:calc(95px / 1400px * 100%);}
+.sec04-title {display: block; width: 100%; max-width: calc(100% * .55); margin:0 auto calc(45px / 1400px * 100%);}
 .sec04-img {display: block; width: 100%; max-width: calc(1120px / 1400px * 100%); margin:0 auto;}
 .sec04-bottom {position: absolute; bottom:0; left:50%; transform: translateX(-50%); display: block; width: 100%; aspect-ratio: 1960 / 219; background: url(../images/sec04_bottom.png) no-repeat center / cover;}
 @media screen and (max-width:1400px) {
