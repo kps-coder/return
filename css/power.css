@@ -145,7 +145,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec03 */ 
 .sec-cont03 {background: #6c0c15;}
 .sec-cont03 .sec-inner {aspect-ratio: 1400 / 998; background: url(../images/sec03_img_mo.jpg) no-repeat center / cover;}
-.sec03-title {display: block; width: 100%; max-width: calc(100% * .65); margin:0 auto calc(65px / 1400px * 100%);}
+.sec03-title {display: block; width: 100%; max-width: calc(100% * .7); margin:0 auto calc(65px / 1400px * 100%);}
 
 /* sec04 */
 .sec-cont04 {position: relative; aspect-ratio: 1920 / 1000; background: url(../images/sec04_bg.jpg) no-repeat center 0 / cover;}
