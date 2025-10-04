@@ -10,6 +10,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
 
 p {line-height: 1.4;}
+img {vertical-align: top;}
 
 /* html::-webkit-scrollbar, body::-webkit-scrollbar {width:0;} */
 button { cursor: pointer; -webkit-tap-highlight-color: rgba(0, 0, 0, 1); background-color: transparent }
@@ -160,6 +161,19 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   .sec04-img {max-width: 80%;}
   .sec04-bottom {aspect-ratio: 1400 / 219; height: auto; background: url(../images/sec04_bottom_mo.png) no-repeat center / cover;}
 }
+
+/* sec05 */ 
+.sec-cont05 {background: #000000 url(../images/sec05_bg.jpg) no-repeat center / cover;}
+.sec-cont05 .sec-inner {padding-bottom: 0;}
+.sec05-title {display: block; width: 100%; max-width: 816px; margin:0 auto calc(70px / var(--max-width) * 100%);}
+.sec05-imgs {display: flex; width: 93%; max-width: calc(990px / var(--max-width) * 100%); margin:0 auto calc(70px / var(--max-width) * 100%);}
+.sec05-imgs > img {display: block; width: 41%; margin:0 -3.5%;}
+.sec05-text {display: block; width: 100%; max-width: calc(531px / var(--max-width) * 100%); margin:0 auto calc(60px / var(--max-width) * 100%);}
+.sec05-bottom {display: block; width: 100%; max-width: 827px; margin:0 auto;}
+@media screen and (max-width:1400px) {
+  .sec-cont05 {background: #000000 url(../images/sec05_bg_mo.jpg) no-repeat center / cover;}
+}
+
 
 /* sec11 */
 .btns-wrap {margin-top:calc(55px / var(--max-width) * 100vw); text-align: center;}
