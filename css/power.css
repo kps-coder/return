@@ -180,7 +180,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont06 {position: relative; aspect-ratio: 1920 / 1276; background: url(../images/sec06_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont06 .sec-inner {height: 100%; padding:calc(100px / 1400px * 100%) 0 0;}
 .sec06-title {display: block; width: 100%; max-width: calc(100% * .5); margin:0 auto calc(45px / 1400px * 100%);}
-.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(575px / 1400px * 100%); height: calc(630px / 1400px * 100%);}
+.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(600px / 1400px * 100%); height: calc(630px / 1400px * 100%);}
 .sec06-texts > p {position: absolute; font-size:32px; font-weight: 800; color: #4d0301; text-align: center;}
 .sec06-texts .txt-1 {top:-10%; width: 100%}
 .sec06-texts .txt-2 {top:32%; left:-30%;}
@@ -194,6 +194,23 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 }
 @media screen and (max-width:768px) {
   .sec06-texts > p {font-size: calc(100vw * .025);}
+}
+
+/* sec07 */ 
+.sec-cont07 {background: #200302 url(../images/sec07_bg.jpg) no-repeat center / cover;}
+.sec-cont07 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
+.sec07-title {display: block; width: 70%; max-width: calc(735px / var(--max-width) * 100%); margin:0 auto calc(45px / 1400px * 100%);}
+.sec07-img {display: block; width: 100%; max-width: 1156px; margin:0 auto;}
+
+/* sec08 */ 
+.sec-cont08 {background: radial-gradient(ellipse at top, #620906, #410604);}
+.sec-cont08 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
+.sec08-title {display: block; width: 55%; max-width: calc(528px / var(--max-width) * 100%); margin:0 auto calc(70px / 1400px * 100%);}
+.sec08-list {display: flex; gap:calc(100% * .02);}
+.sec08-list > li img {border-radius: 10px;}
+@media screen and (max-width:500px) {
+  .sec08-list {flex-wrap: wrap; justify-content: space-between;}
+  .sec08-list > li {width: 48%; margin-top:2%;}
 }
 
 
