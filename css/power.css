@@ -87,6 +87,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   --flex-font-size: 40px;
 }
 
+
 @media screen and (max-width:1400px) {
   :root {
     --input-height : 48px;
@@ -178,7 +179,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 /* sec06 */ 
 .sec-cont06 {position: relative; aspect-ratio: 1920 / 1276; background: url(../images/sec06_bg.jpg) no-repeat center 0 / cover;}
-.sec-cont06 .sec-inner {height: 100%; padding:calc(100px / 1400px * 100%) 0 0;}
+.sec-cont06 .sec-inner {height: 100%; padding:calc(100% * .07) 0 0;}
 .sec06-title {display: block; width: 60%; max-width:579px; margin:0 auto calc(100% * .09);}
 .sec06-texts {position: absolute; left:50%; top: 41%; transform: translateX(-50%); width: calc(.43 * 100%); height: calc(.43 * 100%);}
 .sec06-texts > p {position: absolute; font-size:32px; font-weight: 800; color: #4d0301; text-align: center;}
@@ -191,6 +192,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec06_bottom .sec06-text {display: inline-block; width: 40%; max-width: 400px;}
 @media screen and (max-width:1400px) {
   .sec-cont06 {aspect-ratio: 1400 / 1276; background: url(../images/sec06_bg_mo.jpg) no-repeat center / cover;}  
+  .sec06-texts > p {font-size: calc(100vw * .025);}
 }
 @media screen and (max-width:768px) {
   .sec06-texts > p {font-size: calc(100vw * .025);}
@@ -205,7 +207,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec08 */ 
 .sec-cont08 {background: radial-gradient(ellipse at top, #620906, #410604);}
 .sec-cont08 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
-.sec08-title {display: block; width: 55%; max-width: 528px; margin:0 auto calc(100% * .05);}
+.sec08-title {display: block; width: 60%; max-width: 528px; margin:0 auto calc(100% * .05);}
 .sec08-list {display: flex; gap:calc(100% * .02);}
 .sec08-list > li img {border-radius: 10px;}
 @media screen and (max-width:500px) {
@@ -213,6 +215,23 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   .sec08-list > li {width: 48%; margin-top:2%;}
 }
 
+/* sec09 */ 
+.sec-cont09  {background: #fdece3 url(../images/sec09_bg.jpg) no-repeat center 0 / auto 100%;}
+.sec-cont09 .sec-inner {height:100%;}
+.sec09-title {display: block; width: 100%; max-width: 913px; margin:0 auto calc(100% * .032);}
+.sec09-text {display: block; font-size: 32px; color:#180102; font-weight: 600; text-align: center; word-break: keep-all; margin:0 auto 85px;}
+.sec09-img {display: block; width: 100%; max-width: 1400px; margin:0 auto;}
+.sec09-bottom {text-align: center; margin-top:calc(100% * .03); color:#a26f6f; font-size: 18px;}
+@media screen and (max-width:1400px) {
+  .sec09-text {font-size: 24px; margin-bottom:40px; }
+  .sec09-bottom {font-size:10px;}
+}
+@media screen and (max-width:768px) {
+  .sec09-text {font-size: 14px; margin-bottom:40px;}
+}
+@media screen and (max-width:375px) {
+  .sec09-text {font-size: 12px; margin-bottom:10px;}
+}
 
 /* sec11 */
 .btns-wrap {margin-top:calc(55px / var(--max-width) * 100vw); text-align: center;}
@@ -228,8 +247,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .form-col {display: flex;}
 .form-col > label {display: flex; align-items: center; min-width:80px; padding-right:10px; height: var(--input-height);}
 
-input[type="text"] {width: 100%; height: var(--input-height); padding:0 20px; border:1px solid #cccccc;}
-textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; resize: none; box-sizing: border-box;}
+input[type="text"] {width: 100%; height: var(--input-height); padding:0 20px; border:1px solid #cccccc; border-radius: 0;}
+textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; resize: none; box-sizing: border-box; font-size: 16px;}
 
 .radio-btns {display: flex; width: 100%;}
 .radio-btns > .radio-btn {flex:1;}
