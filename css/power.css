@@ -170,7 +170,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec05-title {display: block; width: 100%; max-width: 816px; margin:0 auto calc(100% * .05);}
 .sec05-imgs {display: flex; width: 90%; max-width: 990px; margin:0 auto calc(100% * .07);}
 .sec05-imgs > img {display: block; width: 41%; margin:0 -3.5%;}
-.sec05-text {display: block; width: 80%; max-width: 531px; margin:0 auto calc(100% * .04);}
+.sec05-text {display: block; width: 65%; max-width: 531px; margin:0 auto calc(100% * .04);}
 .sec05-bottom {display: block; width: 100%; max-width: 827px; margin:0 auto;}
 @media screen and (max-width:1400px) {
   .sec-cont05 {background: #000000 url(../images/sec05_bg_mo.jpg) no-repeat center / cover;}
