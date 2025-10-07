@@ -100,14 +100,15 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 @media screen and (max-width:768px) {
   :root {
     --max-width: 768px;
-    --px-large : 40px;
+    --px-large : 60px;
     --flex-font-size: 20px;
   }
 }
 
 @media screen and (max-width:430px) {
   :root {
-    --max-width: 600px;    
+    --max-width: 600px;   
+    --px-large : 40px; 
     --side-padding : 20px;
     --flex-font-size: 14px;
   }
@@ -212,7 +213,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec08-list > li img {border-radius: 10px;}
 @media screen and (max-width:500px) {
   .sec08-list {flex-wrap: wrap; justify-content: space-between;}
-  .sec08-list > li {width: 48%; margin-top:2%;}
+  .sec08-list > li {width: 48%; margin-top:3%;}
 }
 
 /* sec09 */ 
@@ -223,11 +224,11 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec09-img {display: block; width: 100%; max-width: 1400px; margin:0 auto;}
 .sec09-bottom {text-align: center; margin-top:calc(100% * .03); color:#a26f6f; font-size: 18px;}
 @media screen and (max-width:1400px) {
-  .sec09-text {font-size: 24px; margin-bottom:40px; }
-  .sec09-bottom {font-size:10px;}
+  .sec09-text {width: 75%; font-size: 24px; margin-bottom:40px; }
 }
 @media screen and (max-width:768px) {
-  .sec09-text {font-size: 14px; margin-bottom:40px;}
+  .sec09-text {width: 75%; font-size: 14px;}
+  .sec09-bottom {font-size:10px;}
 }
 @media screen and (max-width:375px) {
   .sec09-text {font-size: 12px; margin-bottom:10px;}
