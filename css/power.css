@@ -234,7 +234,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 }
 
 /* sec11 */
-.btns-wrap {margin-top:calc(55px / var(--max-width) * 100vw); text-align: center;}
+.btns-wrap {margin-top:calc(100% * .1); text-align: center;}
 .btn-counsel {display: inline-block; width: 80%; max-width: 422px; cursor: pointer; color:#fff;}
 .btn-counsel img {width: 100%;}
 
