@@ -124,7 +124,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont01 {aspect-ratio: 1918 / 1207; background: url(../images/sec01_bg.jpg) no-repeat center / cover;}
 .sec-cont01 .sec-inner {height: 100%; padding:calc(95px / 1920px * 100%) 0;}
 .sec01-title {display: block; width: 100%; max-width: calc(100% * .3); margin:0 auto;}
-.sec01-text {position: absolute; bottom:calc(115px / 1400px * 100%); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(100% * .35);}
+.sec01-text {position: absolute; bottom:calc(100% * (115px / 1400px)); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(100% * .35);}
 
 @media screen and (max-width:1400px) {
   .sec-cont01 {aspect-ratio: 1400 / 1207; background: url(../images/sec01_bg_mo.jpg) no-repeat center / cover;}
@@ -135,7 +135,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont02 .sec-inner {padding-bottom: calc(190px / 1400px * 100%);}
 .sec02-title {display: block; width: 100%; max-width: calc(850px / var(--max-width) * 100%); margin:0 auto calc(154px / 1400px * 100%);}
 .sec02-list > li {position: relative; display: flex; align-items: center; justify-content: center; aspect-ratio: 1280 / 300;}
-.sec02-list > li img {position: absolute; transform: translateX(-70%); max-width: calc(500px / 1400px * 100%);}
+.sec02-list > li img {position: absolute; transform: translateX(-70%); max-width: calc(0.36 * 100%);}
 .sec02-list > li strong {color:#fff; font-size: var(--flex-font-size);}
 .sec02-list > li p {position: absolute; left: 55%; color:#fff; font-size: var(--flex-font-size); white-space: nowrap; font-weight: 300;}
 .sec02-list > li:nth-child(2) img {transform: translateX(70%);}
@@ -180,7 +180,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont06 {position: relative; aspect-ratio: 1920 / 1276; background: url(../images/sec06_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont06 .sec-inner {height: 100%; padding:calc(100px / 1400px * 100%) 0 0;}
 .sec06-title {display: block; width: 100%; max-width: calc(100% * .5); margin:0 auto calc(45px / 1400px * 100%);}
-.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(600px / 1400px * 100%); height: calc(630px / 1400px * 100%);}
+.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(.43 * 100%); height: calc(630px / 1400px * 100%);}
 .sec06-texts > p {position: absolute; font-size:32px; font-weight: 800; color: #4d0301; text-align: center;}
 .sec06-texts .txt-1 {top:-10%; width: 100%}
 .sec06-texts .txt-2 {top:32%; left:-30%;}
