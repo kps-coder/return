@@ -143,7 +143,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec02-list > li:nth-child(3) p {transform: translateY(25%);}
 
 
-.sec-point {display: block; width: calc(287px / 1400px * 100%); margin:0 auto calc(50px / 1400px * 100%)}
+.sec-point {display: block; width: 20%; max-width: 287px; margin:0 auto calc(100% * .04)}
 
 /* sec03 */ 
 .sec-cont03 {background: #6c0c15;}
@@ -153,7 +153,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec04 */
 .sec-cont04 {position: relative; background: url(../images/sec04_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont04::before {position: absolute; bottom:0; content: ''; display: block; width: 100%; height:181px; background-color: #a3781b ;}
-.sec-cont04 .sec-inner {height: 100%; padding:calc(95px / 1400px * 100%) 0 0;}
+.sec-cont04 .sec-inner {height: 100%; padding:calc(100% * .07) 0 0;}
 .sec04-title {display: block; width: 55%; max-width: 725px; margin:0 auto calc(100% * 0.03);}
 .sec04-img {display: block; width: 100%; max-width: 1120px; margin:0 auto;}
 .sec04-bottom {position: relative; left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: 1960px; height: 219px; margin-top:calc(100% * -.05); background: url(../images/sec04_bottom.png) no-repeat center / cover;}
@@ -168,9 +168,9 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont05 {background: #000000 url(../images/sec05_bg.jpg) no-repeat center / cover;}
 .sec-cont05 .sec-inner {padding-bottom: 0;}
 .sec05-title {display: block; width: 100%; max-width: 816px; margin:0 auto calc(70px / var(--max-width) * 100%);}
-.sec05-imgs {display: flex; width: 93%; max-width: calc(990px / var(--max-width) * 100%); margin:0 auto calc(70px / var(--max-width) * 100%);}
+.sec05-imgs {display: flex; width: 90%; max-width: 990px; margin:0 auto calc(100% * .07);}
 .sec05-imgs > img {display: block; width: 41%; margin:0 -3.5%;}
-.sec05-text {display: block; width: 100%; max-width: calc(531px / var(--max-width) * 100%); margin:0 auto calc(60px / var(--max-width) * 100%);}
+.sec05-text {display: block; width: 80%; max-width: 531px; margin:0 auto calc(60px / var(--max-width) * 100%);}
 .sec05-bottom {display: block; width: 100%; max-width: 827px; margin:0 auto;}
 @media screen and (max-width:1400px) {
   .sec-cont05 {background: #000000 url(../images/sec05_bg_mo.jpg) no-repeat center / cover;}
@@ -179,8 +179,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec06 */ 
 .sec-cont06 {position: relative; aspect-ratio: 1920 / 1276; background: url(../images/sec06_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont06 .sec-inner {height: 100%; padding:calc(100px / 1400px * 100%) 0 0;}
-.sec06-title {display: block; width: 100%; max-width: calc(100% * .5); margin:0 auto calc(45px / 1400px * 100%);}
-.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(.43 * 100%); height: calc(630px / 1400px * 100%);}
+.sec06-title {display: block; width: 100%; max-width: calc(100% * .5); margin:0 auto calc(100% * .09);}
+.sec06-texts {position: absolute; left:50%; top: 40%; transform: translateX(-50%); width: calc(.43 * 100%); height: calc(.45 * 100%);}
 .sec06-texts > p {position: absolute; font-size:32px; font-weight: 800; color: #4d0301; text-align: center;}
 .sec06-texts .txt-1 {top:-10%; width: 100%}
 .sec06-texts .txt-2 {top:32%; left:-30%;}
