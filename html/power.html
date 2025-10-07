@@ -12,7 +12,7 @@
   <meta name="description" content="되돌아오는 힘, 회복하는 힘 더복력">
 
   <link type="text/css" rel="stylesheet" href="../css/power.css">
-  <script src="../js/scroll-out.min.js"></script>
+  <script src="../js/scroll-out.min.js"></script> <!-- 스크롤 애니를 위한 js -->
 
   <link rel="preload" as="image" href="../images/sec01_bg.jpg">
   <link rel="preload" as="image" href="../images/sec01_bg_mo.jpg">
@@ -30,17 +30,17 @@
 <body>
   <div class="power-wrapper">
     <!-- sec01 -->
-    <section class="sec-cont01">
+    <section class="sec-cont01" data-scroll="in">
       <div class="sec-inner">
-        <h1><img src="../images/sec01_title.png" class="sec01-title" alt="건강한 혈류를 위한 일상관리 더복력"></h1>
-        <img src="../images/sec01_subtitle.png" class="sec01-text" alt="RETURN POWER 무한히 되돌아가는 건강, 삶의 순환을 담다.">
+        <h1 class="ani-up" data-scroll="in"><img src="../images/sec01_title.png" class="sec01-title" alt="건강한 혈류를 위한 일상관리 더복력"></h1>
+        <img src="../images/sec01_subtitle.png" class="sec01-text ani-opacity delay-1" alt="RETURN POWER 무한히 되돌아가는 건강, 삶의 순환을 담다." data-scroll="in">
       </div>
     </section>
 
     <!-- sec02 -->
     <section class="sec-cont02">
       <div class="sec-inner">
-        <h2><img src="../images/sec02_title.png" class="sec02-title" alt="예전 같지 않은 활력, 공감하시나요?"></h2>
+        <h2 class="ani-up" data-scroll><img src="../images/sec02_title.png" class="sec02-title" alt="예전 같지 않은 활력, 공감하시나요?"></h2>
         <ul class="sec02-list">
           <li>
             <img src="../images/sec02_img_1.png" alt="무거운 하루">
@@ -225,8 +225,8 @@
 
 
   <script>
-    
-  </script>
+  ScrollOut();
+</script>
 </body>
 </html>
 
