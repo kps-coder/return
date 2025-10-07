@@ -124,7 +124,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont01 {aspect-ratio: 1918 / 1207; background: url(../images/sec01_bg.jpg) no-repeat center / cover;}
 .sec-cont01 .sec-inner {height: 100%; padding:calc(95px / 1920px * 100%) 0;}
 .sec01-title {display: block; width: 100%; max-width: calc(100% * .3); margin:0 auto;}
-.sec01-text {position: absolute; bottom:calc(100% * 0.09); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(100% * .35);}
+.sec01-text {position: absolute; bottom:-webkit-calc(100% * (115px / 1400px )); bottom:calc(100% * (115px / 1400px )); left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: calc(100% * .35);}
 
 @media screen and (max-width:1400px) {
   .sec-cont01 {aspect-ratio: 1400 / 1207; background: url(../images/sec01_bg_mo.jpg) no-repeat center / cover;}
