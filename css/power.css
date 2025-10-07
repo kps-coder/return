@@ -101,7 +101,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
   :root {
     --max-width: 768px;
     --px-large : 60px;
-    --flex-font-size: 20px;
+    --flex-font-size: 16px;
   }
 }
 
@@ -135,7 +135,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec02 */
 .sec-cont02 {background: #060000 url(../images/sec02_bg.jpg) no-repeat center / cover;}
 .sec-cont02 .sec-inner {padding-bottom: calc(0.13 * 100%);}
-.sec02-title {display: block; width: 70%; max-width: 850px; margin:0 auto calc(100% * .11);}
+.sec02-title {display: block; width: 75%; max-width: 850px; margin:0 auto calc(100% * .11);}
 .sec02-list > li {position: relative; display: flex; align-items: center; justify-content: center; aspect-ratio: 1280 / 300;}
 .sec02-list > li img {position: absolute; transform: translateX(-70%); max-width: calc(100% * 0.36);}
 .sec02-list > li strong {color:#fff; font-size: var(--flex-font-size);}
@@ -170,9 +170,9 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont05 {background: #000000 url(../images/sec05_bg.jpg) no-repeat center / cover;}
 .sec-cont05 .sec-inner {padding-bottom: 0;}
 .sec05-title {display: block; width: 100%; max-width: 816px; margin:0 auto calc(100% * .05);}
-.sec05-imgs {display: flex; width: 90%; max-width: 990px; margin:0 auto calc(100% * .07);}
+.sec05-imgs {display: flex; width: 90%; max-width: 990px; margin:0 auto calc(100% * .08);}
 .sec05-imgs > img {display: block; width: 41%; margin:0 -3.5%;}
-.sec05-text {display: block; width: 65%; max-width: 531px; margin:0 auto calc(100% * .04);}
+.sec05-text {display: block; width: 65%; max-width: 531px; margin:0 auto calc(100% * .06);}
 .sec05-bottom {display: block; width: 100%; max-width: 827px; margin:0 auto;}
 @media screen and (max-width:1400px) {
   .sec-cont05 {background: #000000 url(../images/sec05_bg_mo.jpg) no-repeat center / cover;}
@@ -249,7 +249,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .form-col > label {display: flex; align-items: center; min-width:80px; padding-right:10px; height: var(--input-height);}
 
 input[type="text"] {width: 100%; height: var(--input-height); padding:0 20px; border:1px solid #cccccc; border-radius: 0;}
-textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; resize: none; box-sizing: border-box; font-size: 16px;}
+textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; resize: none; border-radius: 0; box-sizing: border-box; font-size: 16px;}
 
 .radio-btns {display: flex; width: 100%;}
 .radio-btns > .radio-btn {flex:1;}
@@ -257,7 +257,7 @@ textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; res
 .radio-btn + .radio-btn {left:-1px;}
 .radio-btn input {position: absolute; appearance: none;}
 .radio-btn input + label {display: flex; align-items: center; justify-content: center; width: 100%; height: var(--input-height); border:1px solid #cccccc; cursor: pointer;}
-.radio-btn input:checked + label {color:#fff; font-weight: bold; background-color: var(--primary-color);}
+.radio-btn input:checked + label {color:#fff; font-weight: bold; border-color: var(--primary-color); background-color: var(--primary-color);}
 
 /* sec12 제품상세 */
 .sec-info {background-color: #170103;}
