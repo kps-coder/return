@@ -187,8 +187,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec06-texts .txt-3 {top:32%; right:-30%;}
 .sec06-texts .txt-4 {bottom:-15%; left:0;}
 .sec06-texts .txt-5 {bottom:-15%; right:0;}
-.sec06_bottom {display: flex; align-items: center; justify-content: center; height:calc(130px / 1400px * 100%); background-color: #b69041;}
-.sec06_bottom .sec06-text {display: inline-block; width: calc(400px / 1400px * 100%); max-width: 400px;}
+.sec06_bottom {display: flex; align-items: center; justify-content: center; height:calc(.09 * 100%); background-color: #b69041;}
+.sec06_bottom .sec06-text {display: inline-block; width: calc(.285 * 100%); max-width: 400px;}
 @media screen and (max-width:1400px) {
   .sec-cont06 {aspect-ratio: 1400 / 1276; background: url(../images/sec06_bg_mo.jpg) no-repeat center / cover;}  
 }
@@ -199,13 +199,13 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 /* sec07 */ 
 .sec-cont07 {background: #200302 url(../images/sec07_bg.jpg) no-repeat center / cover;}
 .sec-cont07 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
-.sec07-title {display: block; width: 70%; max-width: calc(735px / var(--max-width) * 100%); margin:0 auto calc(45px / 1400px * 100%);}
+.sec07-title {display: block; width: 70%; max-width: 735px; margin:0 auto calc(.032 * 100%);}
 .sec07-img {display: block; width: 100%; max-width: 1156px; margin:0 auto;}
 
 /* sec08 */ 
 .sec-cont08 {background: radial-gradient(ellipse at top, #620906, #410604);}
 .sec-cont08 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
-.sec08-title {display: block; width: 55%; max-width: calc(528px / var(--max-width) * 100%); margin:0 auto calc(70px / 1400px * 100%);}
+.sec08-title {display: block; width: 55%; max-width: 528px; margin:0 auto calc(.05 * 100%);}
 .sec08-list {display: flex; gap:calc(100% * .02);}
 .sec08-list > li img {border-radius: 10px;}
 @media screen and (max-width:500px) {
@@ -216,7 +216,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 /* sec11 */
 .btns-wrap {margin-top:calc(55px / var(--max-width) * 100vw); text-align: center;}
-.btn-counsel {display: inline-block; max-width: calc(422px / var(--max-width) * 100%); cursor: pointer; color:#fff;}
+.btn-counsel {display: inline-block; width: 80%; max-width: 422px; cursor: pointer; color:#fff;}
 .btn-counsel img {width: 100%;}
 
 
@@ -224,7 +224,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 .sec-form {background: var(--primary-color) url(../images/sec11_bg.jpg) no-repeat center 0 / cover;}
 .sec-form .sec-inner {padding-bottom: 0;}
-.sec-form-title {display: block; max-width: calc(529px / var(--max-width) * 100%); margin: 0 auto calc(80px / 1400px * 100vw);}
+.sec-form-title {display: block; width: 80%; max-width: 529px; margin: 0 auto calc(.06 * 100%);}
 .form-col {display: flex;}
 .form-col > label {display: flex; align-items: center; min-width:80px; padding-right:10px; height: var(--input-height);}
 
@@ -243,8 +243,8 @@ textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; res
 .sec-info {background-color: #170103;}
 .sec11-title img {display: block; max-width: 280px; margin:0 auto;}
 .img-info {width: 100%; margin:0 auto; text-align: center;}
-.info-title {display: block; width: 100%; max-width: calc(942px / var(--max-width) * 100%); margin:0 auto 25px;}
-.sec12-detail {display: block; width: 100%; max-width: calc(800px / var(--max-width) * 100%); margin:0 auto;}
+.info-title {display: block; width: 100%; max-width: 942px; margin:0 auto calc(100% * .014);}
+.sec12-detail {display: block; width: 90%; max-width: 800px; margin:0 auto;}
 
 /* pc */
 @media screen and (min-width:1401px) {
