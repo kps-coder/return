@@ -154,7 +154,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec02-list > li p {position: absolute; left: 55%; color:#fff; font-size: var(--flex-font-size); white-space: nowrap; font-weight: 300;}
 .sec02-list > li:nth-child(2) img {transform: translateX(70%);}
 .sec02-list > li:nth-child(2) p {left:45%; translate:-100%;}
-.sec02-list > li:nth-child(3) p {translate:none 25%}
+.sec02-list > li:nth-child(3) p {translate:0 25%}
 
 
 .sec-point {display: block; width: 27%; max-width: 287px; margin:0 auto calc(100% * .04)}
