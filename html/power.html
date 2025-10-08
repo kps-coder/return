@@ -40,7 +40,7 @@
     <!-- sec02 -->
     <section class="sec-cont02">
       <div class="sec-inner">
-        <h2 class="ani-up" data-scroll><img src="../images/sec02_title.png" class="sec02-title" alt="예전 같지 않은 활력, 공감하시나요?"></h2>
+        <h2><img src="../images/sec02_title.png" class="sec02-title ani-up" data-scroll="in" alt="예전 같지 않은 활력, 공감하시나요?"></h2>
         <ul class="sec02-list">
           <li>
             <img src="../images/sec02_img_1.png" alt="무거운 하루" class="ani-left" data-scroll="in">
@@ -226,8 +226,10 @@
 
 
   <script>
-  ScrollOut();
-</script>
+    addEventListener("DOMContentLoaded", (event) => {
+      ScrollOut();
+    });  
+  </script>
 </body>
 </html>
 
