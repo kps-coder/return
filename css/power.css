@@ -153,8 +153,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec02-list > li strong {color:#fff; font-size: var(--flex-font-size);}
 .sec02-list > li p {position: absolute; left: 55%; color:#fff; font-size: var(--flex-font-size); white-space: nowrap; font-weight: 300;}
 .sec02-list > li:nth-child(2) img {transform: translateX(70%);}
-.sec02-list > li:nth-child(2) p {left:45%; transform: translateX(-100%);}
-.sec02-list > li:nth-child(3) p {transform: translateY(25%);}
+.sec02-list > li:nth-child(2) p {left:45%; translate:-100%;}
+.sec02-list > li:nth-child(3) p {translate:none 25%}
 
 
 .sec-point {display: block; width: 27%; max-width: 287px; margin:0 auto calc(100% * .04)}
@@ -170,7 +170,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont04 .sec-inner {height: 100%; padding:calc(100% * .07) 0 0;}
 .sec04-title {display: block; width: 55%; max-width: 725px; margin:0 auto calc(100% * 0.03);}
 .sec04-img {display: block; width: 100%; max-width: 1120px; margin:0 auto;}
-.sec04-bottom {position: relative; left:50%; transform: translateX(-50%); display: block; width: 100%; max-width: 1960px; height: 219px; margin-top:calc(100% * -.05); background: url(../images/sec04_bottom.png) no-repeat center / cover;}
+.sec04-bottom {position: relative; left:50%; translate:-50%; display: block; width: 100%; max-width: 1960px; height: 219px; margin-top:calc(100% * -.05); background: url(../images/sec04_bottom.png) no-repeat center / cover;}
 @media screen and (max-width:1400px) {
   .sec-cont04 {background: url(../images/sec04_bg_mo.jpg) no-repeat center / cover;}
   .sec-cont04::before {display: none;}
@@ -194,7 +194,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont06 {position: relative; aspect-ratio: 1920 / 1276; background: url(../images/sec06_bg.jpg) no-repeat center 0 / cover;}
 .sec-cont06 .sec-inner {height: 100%; padding:calc(100% * .07) 0 0;}
 .sec06-title {display: block; width: 60%; max-width:579px; margin:0 auto calc(100% * .09);}
-.sec06-texts {position: absolute; left:50%; top: 41%; transform: translateX(-50%); width: calc(.43 * 100%); height: calc(.43 * 100%);}
+.sec06-texts {position: absolute; left:50%; top: 41%; translate:-50%; width: calc(.43 * 100%); height: calc(.43 * 100%);}
 .sec06-texts > p {position: absolute; font-size:32px; font-weight: 800; color: #4d0301; text-align: center;}
 .sec06-texts .txt-1 {top:-10%; width: 100%}
 .sec06-texts .txt-2 {top:32%; left:-30%;}
@@ -307,9 +307,16 @@ textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; res
 /* animation */
 .ani-up {opacity: 0;}
 .ani-up[data-scroll="in"] {animation: aniUp .6s forwards;}
+
 .ani-opacity[data-scroll="in"] {animation: aniOpacity 1s forwards;}
 
-.delay-1 {animation-delay: 1s !important;}
+.ani-left {clip-path: inset(0 100% 0 0);}
+.ani-left[data-scroll="in"] {animation: aniLeft 1s forwards;} 
+
+.ani-right {clip-path: inset(0 0 0 100%);}
+.ani-right[data-scroll="in"] {animation: aniRight 1s forwards;} 
+
+.delay-1 {animation-delay: .5s !important;}
 .delay-2 {animation-delay: 2s !important;}
 .delay-3 {animation-delay: 3s !important;}
 .delay-4 {animation-delay: 4s !important;}
@@ -332,5 +339,21 @@ textarea {width: 100%; height:160px; padding:20px; border:1px solid #cccccc; res
   }
   to {
     opacity: 01;
+  }
+}
+@keyframes aniLeft {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+@keyframes aniRight {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0);
   }
 }
