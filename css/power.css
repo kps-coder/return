@@ -217,7 +217,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec07-img {display: block; width: 100%; max-width: 1156px; margin:0 auto;}
 
 /* sec08 */ 
-.sec-cont08 {background: radial-gradient(ellipse at top, #620906, #410604);}
+.sec-cont08 {background: radial-gradient(farthest-corner at center 0, #620906 10%, #410604 100%);}
 .sec-cont08 .sec-inner {padding-top: calc(var(--px-large) - 15px)}
 .sec08-title {display: block; width: 60%; max-width: 528px; margin:0 auto calc(100% * .05);}
 .sec08-list {display: flex; gap:calc(100% * .02);}
