@@ -228,7 +228,9 @@
   <script>
     addEventListener("DOMContentLoaded", (event) => {
       var scrollOut = new ScrollOut();
-      scrollOut.update();
+      setTimeout(function(){
+        scrollOut.update();
+      }, 500);      
     });  
   </script>
 </body>
