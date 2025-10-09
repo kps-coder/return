@@ -168,7 +168,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont04::before {position: absolute; bottom:0; content: ''; display: block; width: 100%; height:181px; background-color: #a3781b ;}
 .sec-cont04 .sec-inner {height: 100%; padding:calc(100% * .07) 0 0;}
 .sec04-title {display: block; width: 55%; max-width: 725px; margin:0 auto calc(100% * 0.03);}
-.sec04-img {display: block; width: 100%; max-width: 1120px; margin:0 auto;}
+.sec04-img {display: block; width: 100%; max-width: 1120px; margin:0 auto; border-radius: 10px;}
 .sec04-bottom {position: relative; left:50%; translate:-50%; display: block; width: 100%; max-width: 1960px; height: 219px; margin-top:calc(100% * -.05); background: url(../images/sec04_bottom.png) no-repeat center / cover;}
 @media screen and (max-width:1400px) {
   .sec-cont04 {background: url(../images/sec04_bg_mo.jpg) no-repeat center / cover;}
