@@ -99,7 +99,7 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 @media screen and (max-width:1140px) {
   :root {
-    --flex-font-size: 18px;
+    --flex-font-size: 20px;
   }
 }
 
@@ -155,8 +155,8 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 .sec-cont02 .sec-inner {padding-bottom: calc(0.13 * 100%);}
 .sec02-title {display: block; width: 80%; max-width: 918px; margin:0 auto calc(100% * .11);}
 .sec02-list {width: 100%; margin:0 auto;}
-.sec02-list > li {position: relative; display: flex; align-items: center; justify-content: center; gap:5%; aspect-ratio: 1280 / 300;}
-.sec02-list > li img {max-width: calc(100% * 0.36);}
+.sec02-list > li {position: relative; display: flex; align-items: center; justify-content: center; gap:5%;}
+.sec02-list > li img {width: 40%; max-width: 500px;}
 .sec02-list > li strong {color:#fff; font-size: var(--flex-font-size); line-height: 1.4;}
 .sec02-list > li p {color:#fff; font-size: var(--flex-font-size); font-weight: 300; word-break: keep-all;}
 .sec02-list > li:nth-child(2) p {text-align: right;}
