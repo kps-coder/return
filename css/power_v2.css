@@ -176,7 +176,15 @@ h2 p > strong {color:#f6db57;}
 .sec-cont02 .sec02-list img {width: 50%;}
 .sec-cont02 .sec02-list p {width: 50%; padding:0 10px; text-align: center; font-size: var(--flex-font-size); word-break: keep-all; font-family: 'NanumMyeongjo'}
 
+@media screen and (min-width:768px) {
+  .sec-cont02 .sec02-list li:nth-child(2) {flex-direction: row-reverse;}
+}
 
+@media screen and (max-width:767px) {
+  .sec-cont02 .sec02-list li {flex-direction: column;}
+  .sec-cont02 .sec02-list img {width: 80%;}
+  .sec-cont02 .sec02-list p {width: 80%; margin:1em 0 2em; font-size: 16px;}
+}
 
 /* sec03 */ 
 .sec-cont03 {background: #520506 url(../images/v2/sec03_bg.png) no-repeat center / cover}
@@ -199,13 +207,14 @@ h2 p > strong {color:#f6db57;}
 
 /* sec05 */ 
 .sec-cont05 {background: #200000 url(../images/v2/sec05_bg.jpg) no-repeat bottom center / cover;}
-.sec-cont05 h2 p {color:#fff;}
+.sec-cont05 h2 p {color:#fff; font-size: var(--flex-title-1);}
 .sec05-text {position: relative; z-index: 1; margin-top:.7em; font-family: 'NanumMyeongjo'; font-size: var(--flex-text); line-height: 1.6; text-align: center; color:#fff;}
 .sec05-img {position: relative; width: 70%; max-width: 650px; margin:calc(100% * .07) auto 0;}
 
 
 /* sec06 */ 
 .sec-cont06 {position: relative; background-color: #fff;}
+.sec-cont06 h2 {margin-bottom:1.3em; font-size: var(--flex-title-1); }
 .sec06-img {position: relative; width: 100%; max-width: 1344px; margin:calc(100% * .04) auto 0;}
 .sec06-text {margin-top:1em; font-family: 'NanumMyeongjo'; font-size: var(--flex-text-1); line-height: 1.6; text-align: center;}
 
