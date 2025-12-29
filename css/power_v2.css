@@ -261,7 +261,7 @@ h2 p > strong {color:#f6db57;}
 
 /* sec10 */ 
 .sec-cont10 {background-color: #fff;}
-.sec10-row {display: flex; gap:calc(100% * .05); align-items: center;}
+.sec10-row {display: flex; gap:calc(100% * .05); align-items: center; max-width: 1400px; margin:0 auto;}
 
 @media screen and (max-width:767px) {
   .sec10-row {flex-direction: column; row-gap: 30px;}
