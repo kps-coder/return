@@ -130,20 +130,19 @@ em, span, i, label{font-size:inherit; color:inherit; font-weight:inherit; letter
 
 @media screen and (max-width:540px) {
   :root {
-    --px-large : 40px; 
+    --px-large : 35px; 
     --side-padding : 20px;
   }
 }
 
-body {background-color: #2f0f02;}
-.sec-inner {overflow: hidden; position: relative; height:100%; padding:var(--px-large) var(--side-padding); }
+.sec-inner {overflow: hidden; position: relative; height:100%; max-width: 1400px; padding:var(--px-large) var(--side-padding); margin:0 auto;}
 h2, 
-h2 p {margin-bottom:2em; font-family: 'NanumMyeongjoExtraBold'; font-size: var(--flex-title); text-align: center; line-height: 1.6; word-break: keep-all;}
+h2 p {font-family: 'NanumMyeongjoExtraBold'; font-size: var(--flex-title); text-align: center; line-height: 1.6; word-break: keep-all;}
 h2 p > strong {color:#f6db57;}
 .sec-point {display: block; width: 27%; max-width: 237px; margin:0 auto 1.2em;}
 
 /* sec01 */
-.sec-cont01 {overflow: hidden; max-width: 1920px; margin:0 auto; background: url(../images/v2/sec01_bg.jpg) no-repeat center bottom / cover; }
+.sec-cont01 {overflow: hidden; margin:0 auto; background:#4e2005 url(../images/v2/sec01_bg.jpg) no-repeat center bottom / 1920px auto; }
 .sec-cont01 .sec-inner {height: 100%; padding:0;}
 .sec01-ani {position: relative;}
 .sec01-img1 {opacity: 0; }
@@ -214,7 +213,7 @@ h2 p > strong {color:#f6db57;}
 
 /* sec06 */ 
 .sec-cont06 {position: relative; background-color: #fff;}
-.sec-cont06 h2 p {font-size: var(--flex-title-1); }
+/* .sec-cont06 h2 p {font-size: var(--flex-title-1); } */
 .sec06-img {position: relative; width: 100%; max-width: 1344px; margin:calc(100% * .04) auto 0;}
 .sec06-text {margin-top:1em; font-family: 'NanumMyeongjo'; font-size: var(--flex-text-1); line-height: 1.6; text-align: center;}
 
@@ -238,7 +237,7 @@ h2 p > strong {color:#f6db57;}
 
 /* sec08 */ 
 .sec-cont08 {background-color: #fff;}
-.sec-cont08 h2 p {margin-bottom:1.5em; font-size: var(--flex-title-1);}
+.sec-cont08 h2 p {margin-bottom:1em; font-size: var(--flex-title-1);}
 .sec-cont08 h2 p > em {color:#9f0002;}
 .sec08-list {display: flex; justify-content: space-between; max-width: 990px; margin:0 auto;}
 .sec08-list > li > img {display: block; width: 90%; margin:0 auto;}
@@ -261,13 +260,24 @@ h2 p > strong {color:#f6db57;}
 
 /* sec10 */ 
 .sec-cont10 {background-color: #fff;}
-.sec10-row {display: flex; gap:calc(100% * .05); align-items: center; max-width: 1400px; margin:0 auto;}
+.sec10-row {display: flex; gap:calc(100% * .05); align-items: center; max-width: 1400px; margin:calc(100% * .05) auto;}
+.sec10-img {width: 50%;}
+.sec10-img-2 {width: 50%; text-align: center;}
+.sec10-img-2 img {width: 80%;}
 
 @media screen and (max-width:767px) {
   .sec10-row {flex-direction: column; row-gap: 30px;}
   .sec10-img,
   .sec10-img-2 {width: 80%;}
 }
+
+/* sec11 */
+.sec-cont11 {background:#54040c url(../images/v2/sec11_bg.jpg) no-repeat top center / auto 100%;}
+.sec-cont11 .sec-inner {padding: 0;}
+.sec11-cont {position: absolute; z-index: 1; top:0; width: 100%; height: 100%; padding:calc(var(--px-large) - 20px) var(--side-padding);}
+.sec-cont11 h2 p {color:#f6db57;}
+.sec11-text {margin:0 0 .5em; font-family: 'NanumMyeongjo'; font-size: var(--flex-text); line-height: 1.6; text-align: center; color:#fff;}
+.sec11-img {position: absolute; bottom:calc(100% * .13); left:50%; transform: translateX(-50%); width: 50%; margin:0 auto;}
 
 /* animation */
 .ani-up {opacity: 0;}
