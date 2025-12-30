@@ -310,6 +310,9 @@ h2,
   .sec13-list > li {width: 100%;}
 }
 
+/* sec14 */
+.sec-cont14 {background: url(../images/v2/sec14_bg_b.png) no-repeat bottom left / auto 60%, url(../images/v2/sec14_bg_t.png) no-repeat top -6% right 10% / auto 30%}
+
 /* sec15 */
 .sec-cont15 {background-color: #fee8e8;}
 .sec-cont15 .sec-inner {padding-bottom:0;}
