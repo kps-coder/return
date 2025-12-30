@@ -316,7 +316,10 @@ h2,
 /* sec15 */
 .sec-cont15 {background-color: #fee8e8;}
 .sec-cont15 .sec-inner {padding-bottom:0;}
-.sec15-img {max-width: 1112px; margin:1.5em auto; font-size: var(--flex-title);}
+.sec15-img {position: relative; max-width: 1112px; margin:1.5em auto; font-size: var(--flex-title);}
+.sec-cont15 .sec15-img .text-1 {position: absolute; top:46%; left:7%; transform: translateY(-50%); color:#fff; margin:0;}
+.sec-cont15 .sec15-img .text-1 > * {display: block; margin:1em 0;}
+
 
 
 /* animation */
