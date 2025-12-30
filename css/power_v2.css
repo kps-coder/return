@@ -262,6 +262,7 @@ h2,
 /* sec09 */ 
 .sec-cont09 {background:url(../images/v2/sec09_bg.jpg) no-repeat center / cover;}
 .sec-cont09 h2 p {margin-bottom: 1.5em; color:#fff;}
+.sec-cont09 .text-1 {margin:2em 0;}
 .sec09-img {width: 100%; max-width: 982px; margin:0 auto;}
 .sec09-img-2 {width: 80%; max-width: 847px; margin:0 auto;}
 
