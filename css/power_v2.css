@@ -311,7 +311,7 @@ h2,
 }
 
 /* sec14 */
-.sec-cont14 {background: url(../images/v2/sec14_bg_b.png) no-repeat bottom left / auto 60%, url(../images/v2/sec14_bg_t.png) no-repeat top -6% right 10% / auto 30%}
+.sec-cont14 {background: url(../images/v2/sec14_bg_b.png) no-repeat bottom left / auto 60%, url(../images/v2/sec14_bg_t.png) no-repeat top -5% right 5% / auto 20%}
 .sec-cont14 .text-1 {margin-bottom:2em;}
 .sec14-img {max-width: 1200px; margin:0 auto;}
 .sec14-text {margin:1em 0 2em; font-size: 18px; text-align: center; color:#a26f6f;}
