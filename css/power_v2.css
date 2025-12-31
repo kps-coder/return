@@ -156,7 +156,7 @@ h2,
 }
 
 /* sec01 */
-.sec-cont01 {overflow: hidden; margin:0 auto; background:#4e2005 url(../images/v2/sec01_bg.jpg) no-repeat center bottom / 1920px auto; }
+.sec-cont01 {overflow: hidden; margin:0 auto; background:#4e2005 url(../images/v2/sec01_bg_2.png) no-repeat center bottom / 1920px auto; }
 .sec-cont01 .sec-inner {height: 100%; padding:0;}
 .sec01-ani {position: relative;}
 .sec01-img1 {opacity: 0; }
