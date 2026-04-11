@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	
+	<title>젊은 피로 채우는 하루 습관 더복력</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/wickedcss.min.css"/>
+    
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="https://www.alisolution-devmanagement.xyz/js/landing-server-comunication/0.0.1/landing-server-comunication.min.js" defer></script>
+    <script src="js/function.js" type="text/javascript" defer></script>    
+
+<!-- 스크롤애니메이션 { -->
+    <script>
+        $(document).ready(function() {
+            // 클래스가 "scroll_on"인 모든 요소를 선택합니다.
+            const $counters = $(".scroll_on");
+            
+            // 노출 비율(%)과 애니메이션 반복 여부(true/false)를 설정합니다.
+            const exposurePercentage = 100; // ex) 스크롤 했을 때 $counters 컨텐츠가 화면에 100% 노출되면 숫자가 올라갑니다.
+            const loop = true; // 애니메이션 반복 여부를 설정합니다. (true로 설정할 경우, 요소가 화면에서 사라질 때 다시 숨겨집니다.)
+        
+            // 윈도우의 스크롤 이벤트를 모니터링합니다.
+            $(window).on('scroll', function() {
+                // 각 "scroll_on" 클래스를 가진 요소에 대해 반복합니다.
+                $counters.each(function() {
+                    const $el = $(this);
+            
+                    // 요소의 위치 정보를 가져옵니다.
+                    const rect = $el[0].getBoundingClientRect();
+                    const winHeight = window.innerHeight; // 현재 브라우저 창의 높이
+                    const contentHeight = rect.bottom - rect.top; // 요소의 높이
+                    
+                    // 요소가 화면에 특정 비율만큼 노출될 때 처리합니다.
+                    if (rect.top <= winHeight - (contentHeight * exposurePercentage / 100) && rect.bottom >= (contentHeight * exposurePercentage / 100)) {
+                        $el.addClass('active');
+                    }
+                    // 요소가 화면에서 완전히 사라졌을 때 처리합니다.
+                    if (loop && (rect.bottom <= 0 || rect.top >= window.innerHeight)) {
+                        $el.removeClass('active');
+                    }
+                });
+            }).scroll();
+        });
+        </script>
+        <!--} 스크롤애니메이션 끝  -->
+
+
+<div class="fbpc">
+<div id="navigation" style=" z-index:9990;">
+<A style="POSITION: fixed; bottom:3%; RIGHT:5%; z-index:9999;">
+
+<table>
+	<tr>
+		<td>
+			<a href="tel:1833-4545" target="_blank"><img src="images/fb_pc.png" style="width:261px; height:auto;" class="wiggle"></a>
+		</td>
+	</tr>
+	
+</table>
+</A>
+</div>
+</div>
+
+
+
+<div class="fbmo">
+<div id="navigation" style=" z-index:9990;">
+<A style="POSITION: fixed; bottom:-1%; RIGHT:0%; z-index:9999;">
+<table cellpadding="0" cellspacing="0" style="width:100%;">
+	<tr>
+		<td width="100%"><a href="tel:1833-4545" target="_blank"><img src="images/fb_mo.gif" style="width:100%; height:auto;"></a></td>
+	</tr>
+</table>
+</A>
+</div>
+</div>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<div class="con01">
+	<div class="wrap">
+    <div class="scroll_wrap">
+      <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con01_img01.png"></div>
+      </div>
+    <div class="p_t1"><img src="images/con01_img02.png"></div> 
+    </div>    
+	</div>
+</div>
+
+<div class="con02">
+	<div class="wrap">
+    <div class="scroll_wrap">
+      <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con02_img01.png"></div>
+      </div>
+      <div class="p_t1"><img src="images/con02_img02.png"></div> 
+      <div class="scroll_on type_top">
+        <div class="p_0"><img src="images/con02_img03.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con03">
+	<div class="wrap">
+    <div class="scroll_wrap">
+      <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con03_img01.png"></div>
+      </div>
+      <div class="p_t1"><img src="images/con03_img02.gif" ></div> 
+      <div class="scroll_on type_top">
+        <div class="p_0"><img src="images/con03_img03.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con04">
+	<div class="wrap">
+    <div class="scroll_wrap">
+      <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con04_img01.png"></div>
+      </div>
+      <div class="scroll_on type_top">
+        <div class="p_0"><img src="images/con04_img02.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con05">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_top">
+        <div class="p_0"><img src="images/con05_img01.png" class="floater"></div>
+        </div>
+      <div class="scroll_on type_bottom">
+        <div class="p_t3"><img src="images/con05_img02.png"></div>
+      </div>
+      <div class="scroll_on">
+        <div class="p_0"><img src="images/con05_img03.png"></div>
+      </div>
+      <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con05_img04.gif"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con06">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con06_img01.png"></div>
+        </div>
+      <div class="scroll_on">
+        <div class="p_t3"><img src="images/con06_img02.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+
+<div class="con07">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con07_img01.png"></div>
+        </div>
+    
+        <div class="p_t2"><img src="images/con07_img02.gif"></div>
+     
+      <div class="scroll_on type_top">
+        <div class="p_t2"><img src="images/con07_img03.png"></div>
+        </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con08">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con08_img01.png"></div>
+        </div>
+      <div class="scroll_on">
+        <div class="p_t1"><img src="images/con08_img02.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con09">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con09_img01.png"></div>
+        </div>
+      <div class="scroll_on">
+        <div class="p_t1"><img src="images/con09_img02.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con10">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on type_bottom">
+        <div class="p_0"><img src="images/con10_img01.png"></div>
+        </div>
+      <div class="scroll_on type_left">
+        <div class="p_t1"><img src="images/con10_img02.png"></div>
+      </div>
+      <div class="scroll_on type_left">
+        <div class="p_0"><img src="images/con10_img03.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+
+<div class="con11">
+	<div class="wrap">
+    <div class="scroll_wrap">
+        <div class="scroll_on">
+        <div class="p_0"><img src="images/con11_img01.png" class="pulse"></div>
+        </div>
+      <div class="scroll_on type_top">
+        <div class="p_t1"><img src="images/con11_img02.png"></div>
+      </div>
+      <div class="scroll_on type_left">
+        <div class="p_0"><img src="images/con11_img03.png"></div>
+      </div>
+    </div>    
+	</div>
+</div>
+<div class="con12">
+	<div class="wrap">
+        <div class="p_0"><img src="images/con12_img01.png"></div>   
+	</div>
+</div>
+
+
+</body>
+</html>
+

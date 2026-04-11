@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+/* 초기화 */
+
+
+html,body{scroll-behavior:smooth; }
+html {overflow-y:scroll;}
+body {margin:0;padding:0;font-size:0.75em;font-family:'SCDream4';}
+@media screen and (max-width:640px){
+	body{font-size:15px;font-weight:400;}
+}
+
+.layout{min-width:1200px;width:100%;overflow:hidden;position:relative;}
+.wrap{width:auto; margin:0 auto; overflow:hidden; }
+.wraptop{width:1200px; margin:0 auto; overflow:hidden; }
+.wrap02{width:1000px; margin:0 auto;  }
+
+
+/* 타블렛 */
+@media (max-width:1200px) and (min-width:620px){
+
+.layout{min-width:1200px;width:100%;overflow:hidden;position:relative;}
+.wrap{width:auto; margin:0 auto; overflow:hidden; }
+.wraptop{width:90%; margin:0 auto; overflow:hidden; }
+.wrap02{width:90%; margin:0 auto;  }
+
+}
+
+/* 모바일 */
+@media (max-width:620px){
+	.layout{min-width:0;}
+	.wrap{width:auto;margin:0;}
+	.wraptop{width:auto;margin:0;}
+	.wrap02{width:auto;margin:0;}
+
+
+}
+
+
+
+
+
+.fbpc {display:block}
+.fbmo {display:none}
+@media screen and (max-width:640px){
+.fbmo {display:block}
+.fbpc {display:none}
+
+}
+
+
+
+/* 스크롤애니메이션 */
+
+.scroll_wrap {overflow: hidden;}
+.scroll_on {padding:0px 0;font-size:24px;font-weight:700;text-align: center;opacity: 0;transition: all 1s;}
+.scroll_on.active {opacity: 1 !important;transform: translate(0, 0) !important;}
+.scroll_on.type_top {transform: translate(0, -50px);}
+.scroll_on.type_bottom {transform: translate(0, 50px);}
+.scroll_on.type_left {transform: translate(-50px, 0);}
+.scroll_on.type_right {transform: translate(50px, 0);}
+
+
+
+/* 배경 */
+.con01{height:100%; position:relative; background:url(../images/con01_bg.gif) center top no-repeat;   background-color:#000; background-size:100%; text-align:center; padding:7% 0% 0%;}
+.con02{height:100%; position:relative; background:url(../images/con02_bg.jpg) center bottom no-repeat;   background-color:#fff; background-size:100%; text-align:center; padding:7% 0%;}
+.con03{height:100%; position:relative;  background-color:#651b27; background-size:100%; text-align:center; padding:7% 0%;}
+.con04{height:100%; position:relative; background:url(../images/con04_bg.jpg) center top no-repeat;   background-color:#fff; background-size:100%; text-align:center; padding:13% 0%;}
+.con05{height:100%; position:relative; background:url(../images/con05_bg.jpg) center bottom no-repeat;  background-color:#fff; background-size:100%; text-align:center; padding:0% 0% 7%;}
+.con06{height:100%; position:relative; background:url(../images/con06_bg.jpg) center bottom no-repeat;   background-color:#000; background-size:100%; text-align:center; padding:7% 0%;}
+.con07{height:100%; position:relative;  background-color:#fff; background-size:100%; text-align:center; padding:7% 0%;}
+.con08{height:100%; position:relative; background:url(../images/con08_bg.gif) center top no-repeat;   background-color:#fbfbfb; background-size:100%; text-align:center; padding:7% 0%;}
+.con09{height:100%; position:relative; background:url(../images/con09_bg.jpg) center top no-repeat;   background-color:#000; background-size:100%; text-align:center; padding:7% 0%;}
+.con10{height:100%; position:relative; background:url(../images/con10_bg.jpg) center top repeat-y; background-size:100%; text-align:center; padding:7% 0%;}
+.con11{height:100%; position:relative; background:url(../images/con11_bg.jpg) center bottom no-repeat;  background-color:#000; background-size:100%; text-align:center; padding:7% 0%;}
+.con12{height:100%; position:relative; background-color:#fff; background-size:100%; text-align:center; padding:7% 0%;}
+
+
+
+/* 테블렛 */
+@media (max-width:1200px) and (min-width:620px){
+    .con01{width:100%; height:auto; position:relative; background:url(../images/con01_bg_mo.gif) center top no-repeat;  background-color:#000; background-size:100%; text-align:center; padding:10% 0%;}
+    .con02{padding:10% 0%; background-size:200%;}
+    .con03{padding:10% 0%; background-size:100%;}
+    .con04{padding:15% 0%; background-size:200%;}
+    .con05{padding:0% 0% 10%; background-size:150%;}
+    .con06{padding:10% 0%; background-size:150%;}
+    .con07{padding:10% 0%; background-size:100%;}
+    .con08{padding:10% 0%; background-size:200%;}
+    .con09{padding:10% 0%; background-size:150%;}
+    .con10{padding:10% 0%; background-size:150%;}
+    .con11{padding:10% 0%; background-size:150%;}
+    .con12{padding:5% 0% 20%; background-size:100%;}
+}
+
+/* PC */
+@media (min-width:1200px){
+
+}
+/* 모바일 */
+@media (max-width:620px){
+  .con01{width:100%; height:auto; position:relative; background:url(../images/con01_bg_mo.gif) center top no-repeat;  background-color:#000; background-size:100%; text-align:center; padding:10% 0%;}
+  .con02{padding:10% 0%; background-size:200%;}
+  .con03{padding:10% 0%; background-size:100%;}
+  .con04{padding:15% 0%; background-size:200%;}
+  .con05{padding:0% 0% 10%; background-size:150%;}
+  .con06{padding:10% 0%; background-size:150%;}
+  .con07{padding:10% 0%; background-size:100%;}
+  .con08{padding:10% 0%; background-size:200%;}
+  .con09{padding:10% 0%; background-size:150%;}
+  .con10{padding:10% 0%; background-size:150%;}
+  .con11{padding:10% 0%; background-size:150%;}
+  .con12{padding:5% 0% 20%; background-size:100%;}
+}
+
+
+/* 공통 */
+
+.p_0{position:relative; top:0px; text-align:center;}
+.p_t1{position:relative; top:0px; padding-top:1%; text-align:center;}
+.p_t2{position:relative; top:0px; padding-top:2%; text-align:center;}
+.p_t3{position:relative; top:0px; padding-top:3%; text-align:center;}
+
+
+
+#con_mo{display:none}
+
+
+
+.contact_bg {padding-top:3%;}
+.contact_bg iframe{background:#fff; border-radius:20px; border:1px solid #fff; box-shadow:7px 5px 5px rgba(0, 0, 0, 0.2); padding:7%;}
+
+
+.youtube {position:relative; top:0px; padding-top:3%; text-align:center;}
+.youtube iframe{width:100%;}
+
+
+
+.p_move{position:relative; top:0px; padding-top:3%; text-align:center;}
+.p_move_mo {display:none}
+
+
+.con_bt{position:relative; top:0px; padding-top:5%; text-align:center;display:flex; }
+.con_bt .con_bt01{flex:1;}
+.con_bt .con_bt01 img{width:100%; max-height:375px;}
+
+
+
+/* 테블렛 */
+@media (max-width:1200px) and (min-width:620px){
+.p_0{position:relative; top:0px; text-align:center;}
+.p_0 img{width:90%}
+
+.p_t1{position:relative; top:0px; padding-top:1%; text-align:center;}
+.p_t1 img{width:90%}
+
+.p_t2{position:relative; top:0px; padding-top:2%; text-align:center;}
+.p_t2 img{width:90%}
+
+.p_t3{position:relative; top:0px; padding-top:3%; text-align:center;}
+.p_t3 img{width:90%}
+
+
+
+.contact_bg {padding-top:3%;}
+.contact_bg iframe{background:#fff; width:90%; border-radius:20px; border:1px solid #fff;  box-shadow:7px 5px 5px rgba(0, 0, 0, 0.2); padding:7%;}
+
+
+
+.youtube {position:relative; top:0px; padding-top:3%; text-align:center;}
+.youtube iframe{width:90%;}
+
+
+
+.p_move_mo{display:block; position:relative; top:0px; text-align:center;}
+.p_move{display:none}
+
+
+
+#w_60{width:60%; padding-top:3%;}
+#w_80{width:80%;}
+
+#p_5{padding-top:10%;}
+#p_4{padding-top:10%;}
+
+
+
+.con_bt{position:relative; top:0px; padding-top:2%; text-align:center; display:flex; }
+.con_bt .con_bt01{flex:1;}
+.con_bt .con_bt01 img{width:100%; max-height:200px;}
+
+
+}
+
+/* PC */
+@media (min-width:1200px){
+
+}
+
+/* 모바일 */
+@media (max-width:620px){
+.p_0{position:relative; top:0px; text-align:center;}
+.p_0 img{width:100%}
+
+.p_t1{position:relative; top:0px; padding-top:1%; text-align:center;}
+.p_t1 img{width:100%}
+
+.p_t2{position:relative; top:0px; padding-top:2%; text-align:center;}
+.p_t2 img{width:100%}
+
+.p_t3{position:relative; top:0px; padding-top:3%; text-align:center;}
+.p_t3 img{width:100%}
+
+
+.con_bt{position:relative; top:0px; padding-top:2%; text-align:center; display:flex; width:90%; margin-left:5%;}
+.con_bt .con_bt01{flex:1;}
+.con_bt .con_bt01 img{width:100%; max-height:120px;}
+
+
+#con_pc{display:none}
+#con_mo{display:block; position:relative; top:0px; text-align:center;}
+#con_mo img{width:100%}
+
+.contact_bg {padding-top:3%;}
+.contact_bg iframe{background:#fff; width:90%; border-radius:20px; border:1px solid #fff;  box-shadow:7px 5px 5px rgba(0, 0, 0, 0.2); padding:7%;}
+
+.youtube {position:relative; top:0px; padding-top:3%; text-align:center;}
+.youtube iframe{width:90%;}
+
+
+
+.p_move_mo{display:block; position:relative; padding-top:3%; top:0px; text-align:center;}
+.p_move{display:none}
+
+
+#w_60{width:60%; padding-top:3%;}
+#w_80{width:80%;}
+#w_150{width:150%; margin-left:-25%;}
+
+#p_5{padding-top:10%;}
+#p_4{padding-top:10%;}
+
+}
+
+/* ======== 20260413 수정 건 ============= */
+
+.con01_v2 {height:100%; position:relative; background:url(../images/v2/v2_cont01_bg.jpg) center bottom no-repeat;   background-color:#dcba86; background-size:auto 100%; text-align:center; padding:0 0% 0%;}
+.con07_v2 {height:100%; position:relative;  background:url(../images/v2/v2_cont07_bg.png) center bottom no-repeat; background-color:#dcdcdc; background-size:auto 100%; text-align:center; padding:10% 0 0;}
+.con08_v2 {height:100%; position:relative; background:url(../images/v2/v2_cont08_bg.png) center top no-repeat, linear-gradient(#6e5e57 0%, #f2f1f0 100%);   background-color:#fbfbfb; background-size:auto 100%; text-align:center; padding:7% 0%;}
+.con13_v2 {height:100%; position:relative; background:url(../images/v2/v2_cont13_bg.png) center bottom no-repeat;   background-color:#cfc8c5; background-size:auto 100%; text-align:center; padding:0 0% 0%;}
