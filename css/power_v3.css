@@ -429,8 +429,8 @@ h2 p,
 .sec10_1-list > li dd {font-size: .65em; line-height: 1.3;}
 .sec10_1-list > li.noti {margin-top:1.5em; padding-left:4em; color:#888888; font-size: .5em;}
 
-@media screen and (max-width:1400px) {
-  .sec10_1-list {font-size:calc(100vw * .03);}
+@media screen and (max-width:900px) {
+  .sec10_1-list {font-size:calc(100vw * .04);}
 }
 
 /* sec-bottom */
