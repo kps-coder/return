@@ -50,7 +50,7 @@ a {text-decoration: none; cursor:pointer;}
 .iconBtn-sec {color: var(--primary-color); background-color: #fff;}
 
 /* ==== header ==== */
-.engHeader {position: sticky; top:0; background-color: #fff;}
+.engHeader {position: sticky; top:0; z-index: 10; background-color: #fff;}
 .engHeader .dim {position: fixed; top:0; left: 0; right:0; bottom:0; background-color: rgba(0,0,0,.5);}
 .engHead {position: relative; border-bottom:1px solid #E2E2E2; background-color: #fff;}
 .engHead .inner {display:flex; justify-content: space-between; align-items: center ; max-width: 1280px; margin:0 auto; padding:24px 20px; box-sizing: content-box;}
@@ -282,6 +282,41 @@ a {text-decoration: none; cursor:pointer;}
   .mainFunctions__list > dl {width: 100%; padding:20px 16px;}
   .mainFunctions__list > dl + dl {margin-top:24px;}
   .mainFunctions__list > dl > dt {padding-inline: 12px;}
+}
+
+/* history */
+.historyList {position: relative; padding:48px 36px 48px 64px; border-radius: 20px; background-color: #F5F6F8;}
+.historyList::before {content: ''; position: absolute; top:90px; bottom:180px; left:36px; display: block; width: 2px; background: url(../images/line.png) repeat-y center;}
+.byYear {display: flex; align-items: flex-start; gap: 32px;}
+.byYear:first-child {align-items: center;}
+.byYear + .byYear {margin-top:56px;}
+.byYear__year {position: relative; display: flex; align-items: center; justify-content: center; width: 100px; min-width: 100px; height: 100px; border-radius: 20px; color:#fff; font-size: 24px; font-weight: 700; background-color: #1C82CC;}
+.byYear__year::before {position: absolute; left:-32px; display: block; content: ''; width: 6px; height: 6px; border-radius: 100%; border:3px solid #cadfef; background-color: #1C82CC;}
+.byYear__cont > dl {display: flex;}
+.byYear__cont > dl ~ dl {margin-top:8px;}
+.byYear__cont > dl > dt {width: 76px; min-width: 76px; color:#1C82CC; font-size: 1.25rem; font-weight: 500;}
+.byYear__cont > dl > dd > p {position: relative; padding-left:15px; line-height: 1.4; font-size: 1.125rem; color: #555;}
+.byYear__cont > dl > dd > p::before {position: absolute; top:10px; left:0; content: ''; display: block; width: 4px; height: 4px; border-radius: 100%; background-color: #555;}
+.byYear__cont > dl > dd > p ~ p {margin-top:8px}
+
+/* m */
+@media screen and (max-width: 1100px) {
+  .historyList {padding: 20px;}
+  .byYear {display: block;}
+  .byYear__year {width: 100%; height:36px; margin-bottom:24px;}
+  .historyList::before,
+  .byYear__year::before {display: none;}
+  .byYear__cont > dl > dt {min-width: 50px; width: 50px;}
+}
+
+/* Organization */
+.organization {overflow-x: auto;}
+.organization > img {width: 100%;}
+.organization_text {margin-top:24px; font-size: 14px; color:#555; line-height: 1.4;}
+
+/* m */
+@media screen and (max-width: 767px) {
+  .organization > img {width: 600px;}
 }
 
 
