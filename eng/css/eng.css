@@ -312,7 +312,7 @@ a {text-decoration: none; cursor:pointer;}
 /* Organization */
 .organization {overflow-x: auto;}
 .organization > img {width: 100%;}
-.organization_text {margin-top:24px; font-size: 14px; color:#555; line-height: 1.4;}
+.organization__text {margin-top:24px; font-size: 14px; color:#555; line-height: 1.4;}
 
 /* m */
 @media screen and (max-width: 767px) {
