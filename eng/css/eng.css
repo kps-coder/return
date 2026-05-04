@@ -15,7 +15,7 @@ img {vertical-align: top;}
 
 table {table-layout:fixed; border-collapse: collapse; border-spacing: 0px; word-break: break-all; word-wrap: break-word; }
 caption, legend { visibility:hidden;overflow:hidden;font-size:0;line-height:0; }
-address,caption,cite,code,dfn,em,var {font-style: normal;}
+address,caption,cite,code,dfn,em,var {font-style: normal; }
 
 button { cursor: pointer; border:0; background-color: #fff; font-family: inherit; font-size: inherit;}
 button, select {box-shadow: none; cursor: pointer;}
@@ -161,9 +161,9 @@ a {text-decoration: none; cursor:pointer;}
 .subMenu {margin-bottom:64px; border-bottom:1px solid var(--primary-color);}
 .subMenu > ul {display: flex; gap:8px;}
 .subMenu > ul > li {flex: 1; border:1px solid #EDEDED; border-bottom:0; border-radius: 8px 8px 0 0;}
-.subMenu > ul > li > a {display: flex; align-items: center; justify-content: center; height:100%; min-height: 58px; padding:17px 16px; text-align: center; font-size: 18px; color:#333;}
+.subMenu > ul > li > a {display: flex; align-items: center; justify-content: center; height:100%; min-height: 58px; max-height:82px; padding:17px 16px; text-align: center; font-size: 18px; color:#333;}
 .subMenu > ul > li.on {background-color: var(--primary-color);}
-.subMenu > ul > li.on a {font-weight: 700; font-size: 20px; color:#fff; }
+.subMenu > ul > li.on a {font-weight: 700; font-size: 18px; color:#fff; }
 
 /* m */
 @media screen and (max-width: 1024px) {
@@ -317,6 +317,79 @@ a {text-decoration: none; cursor:pointer;}
 /* m */
 @media screen and (max-width: 767px) {
   .organization > img {width: 600px;}
+}
+
+/* ci&mascot */
+.ciMascot {margin-bottom:24px; padding:40px; border:1px solid #E2E2E2; border-radius: 20px;}
+.ciMascot .titleH4 {margin-bottom:10px}
+.ciMascot h5 {margin-bottom:16px; font-size: 1.25rem; text-align: center;}
+.ciMascot p {margin-bottom:24px; color: #555; line-height: 1.6;}
+.ciMascot img {width: 100%;}
+.ciMascot .iconBtn-sec {width: 100%;}
+.ciMascot__box {padding:32px; border-radius: 20px; background-color: #F5F6F8;} 
+
+.kinfaCi__box {display: flex; gap:20px;}
+.kinfaCi__box > div {flex: 1;}
+.kinfaCi__img {max-width: 332px; margin:0 auto;}
+.kinfaCi__btns {margin-top:12px;}
+
+.mascot {margin-top:40px;}
+.mascot__img {max-width: 718px; margin:0 auto;}
+
+.notiList > li {position: relative; padding-left:15px; color:#555; line-height: 1.6;}
+.notiList > li::before {position: absolute; top:8px; left:0; content: ''; display:block; width: 4px; height: 4px; border-radius: 100%; background-color: #555;}
+.notiList > li + li {margin-top:4px;}
+
+/* m */
+@media screen and (max-width: 1023px) {
+  .ciMascot {padding:20px;}
+  .kinfaCi__box {display: block;}
+  .ciMascot__box {margin-top:16px;}
+}
+
+/* Inclusive Funds Support */
+[class^="ic-support"] {display: inline-block; width: 100%; height: 100%; background: no-repeat center / contain;}
+.ic-support01 {background-image: url(../images/ic_support01.png);}
+.ic-support02 {background-image: url(../images/ic_support02.png);}
+.ic-support03 {background-image: url(../images/ic_support03.png);}
+.ic-support-loan01 {background-image: url(../images/ic_support_loan_1.png);}
+.ic-support-loan02 {background-image: url(../images/ic_support_loan_2.png);}
+.ic-support-loan03 {background-image: url(../images/ic_support_loan_3.png);}
+.ic-support-loan04 {background-image: url(../images/ic_support_loan_4.png);}
+.ic-support-loan05 {background-image: url(../images/ic_support_loan_5.png);}
+.ic-support-loan06 {background-image: url(../images/ic_support_loan_6.png);}
+
+.supportList {margin-top:-20px}
+.supportList > p {margin-bottom:24px; line-height: 1.6; color: #555;}
+.supportList > ul > li {display: flex; align-items: center; gap:24px; padding:24px 40px; border: 1px solid #E2E2E2; border-radius: 20px;}
+.supportList > ul > li ~ li {margin-top:24px;}
+.supportList__img {width: 140px; height:140px; border-radius: 100%; background-color: #F5F6F8;}
+.supportList dl > dt {font-weight: 600; font-size: 1.5rem; line-height: 1.4;}
+.supportList dl > dt > em {color: #E21B22;}
+.supportList dl > dt > small {display: block; font-size: 1rem; color:#555; font-weight: 400;}
+.supportList dl > dt .mark {display: inline-block; margin:0 12px; padding:0 12px; border-radius: 100px; color: #1C82CC; font-size: 1.25rem; background-color: #1C82CC1F;}
+.supportList dl > dd {margin-top:16px; line-height: 1.4;}
+.supportList dl > dd > em {display: block;}
+
+/* m */
+@media screen and (max-width: 767px) {
+  .supportList > ul > li {display: block; padding:24px 20px;}
+  .supportList dl {text-align: center;}
+  .supportList__img {margin: 0 auto 12px;}
+  .supportList dl > dt > em {display: block;}
+}
+
+
+/* Credit & Debt Management Consulting Service */
+.creditDebt {padding:80px 40px; border:1px solid #E2E2E2; border-radius: 20px;}
+.creditDebt > img {display: block; width: 100%; max-width: 540px; margin:0 auto;}
+.creditDebt dl {margin-top:40px; text-align: center; line-height: 1.4;}
+.creditDebt dl dt {font-weight: 600; font-size: 1.5rem;}
+.creditDebt dl dd {max-width: 720px; margin: 16px auto 0; font-size: 1.125rem; color:#555;}
+
+/* m */
+@media screen and (max-width: 1023px) {
+  .creditDebt {padding:40px 20px;}
 }
 
 
