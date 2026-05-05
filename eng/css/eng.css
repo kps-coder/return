@@ -288,6 +288,7 @@ a {text-decoration: none; cursor:pointer;}
 @media screen and (max-width: 767px) {
   .mainFlex {display: block;}
   .mainReport__box {flex-direction: column;}
+  .mainReport__info {width: 100%;}
   .mainReport__info .btns {justify-content: center;}
   .mainCallCenter {margin-top:60px;}
   .mainCallCenter__hours {padding:20px 16px;}
