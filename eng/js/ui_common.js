@@ -62,13 +62,13 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 
   $('.engLnb__depth1').click(function(){
-    let expanded = $(this).attr('data-expanded');
+    let expanded = $(this).attr('aria-expanded');
     if(expanded == 'false') {
       $(this).next().stop().slideDown(200);
-      $(this).attr('data-expanded', 'true');
+      $(this).attr('aria-expanded', 'true');
     } else {
       $(this).next().stop().slideUp(200);
-      $(this).attr('data-expanded', 'false');
+      $(this).attr('aria-expanded', 'false');
     }
     
   });

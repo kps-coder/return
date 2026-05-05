@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function() {
           <div class="engLnb">
             <ul>
               <li>
-                <button type="button" class="engLnb__depth1" data-expanded="false">About KINFA</button>
+                <button type="button" class="engLnb__depth1" aria-expanded="false">About KINFA</button>
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Message from the CEO</a></li>
@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>            
               </li>
               <li>
-                <button type="button" class="engLnb__depth1" data-expanded="false">Services</button>
+                <button type="button" class="engLnb__depth1" aria-expanded="false">Services</button>
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Inclusive Funds Support</a></li>
@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
               </li>
               <li>
-                <button type="button" class="engLnb__depth1" data-expanded="false">Publications</button>
+                <button type="button" class="engLnb__depth1" aria-expanded="false">Publications</button>
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Videos</a></li>
@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
               </li>
               <li>
-                <button type="button" class="engLnb__depth1" data-expanded="false">Network</button>
+                <button type="button" class="engLnb__depth1" aria-expanded="false">Network</button>
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Domestic</a></li>

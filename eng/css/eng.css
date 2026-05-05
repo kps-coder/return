@@ -114,7 +114,7 @@ a {text-decoration: none; cursor:pointer;}
   .engLnb > ul > li {margin-bottom:24px;}
   .engLnb__depth1 {position: relative; display: block; width: 100%; height:36px; text-align: left; font-size: 16px; font-weight: 700; }
   .engLnb__depth1::after {content: ''; display: block; position: absolute; top:9px; right:0;  width: 16px; height: 16px; background: url(../images/ic_arr_down.svg) no-repeat center right / 16px auto; transition: .3s;}
-  .engLnb__depth1[data-expanded="true"]::after {transform: rotate(-180deg);}
+  .engLnb__depth1[aria-expanded="true"]::after {transform: rotate(-180deg);}
   .engLnb__sub {display: none;}
   .engLnb__sub > ul > li > a {display: inline-block; padding:8px 12px; color:#666;}
 }
