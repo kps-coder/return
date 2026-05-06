@@ -709,7 +709,7 @@ a {text-decoration: none; cursor:pointer;}
 .centerList__tab > li > button:hover {text-decoration: underline; background-color: #EDF7FF;}
 .centerList__tab > li.select {z-index: 1; border-color:#002169;}
 .centerList__tab > li.select > button {color:#002169; font-weight: 700;}
-.centerList__tab > li.select > button:hover {text-decoration: underline; background-color: #fff;}
+.centerList__tab > li.select > button:hover {text-decoration: none; background-color: #fff;}
 
 
 .centerList__list > li {display: none; border-top:1px solid #010101;}
