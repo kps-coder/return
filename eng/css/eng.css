@@ -336,7 +336,7 @@ a {text-decoration: none; cursor:pointer;}
 .subMenu {margin-bottom:64px; border-bottom:1px solid var(--primary-color);}
 .subMenu > ul {display: flex; gap:8px;}
 .subMenu > ul > li {flex: 1; border:1px solid #EDEDED; border-bottom:0; border-radius: 8px 8px 0 0;}
-.subMenu > ul > li > a {display: flex; align-items: center; justify-content: center; height:100%; min-height: 58px; max-height:82px; padding:17px 16px; text-align: center; font-size: 18px; color:#333;}
+.subMenu > ul > li > a {display: flex; align-items: center; justify-content: center; height:100%; min-height: 58px; max-height:82px; padding:17px 8px; text-align: center; font-size: 18px; color:#333;}
 .subMenu > ul > li:not(.on) > a:hover {text-decoration: underline; background-color: #EDF7FF;}
 .subMenu > ul > li.on {background-color: var(--primary-color);}
 .subMenu > ul > li.on a {font-weight: 700; font-size: 18px; color:#fff; }
