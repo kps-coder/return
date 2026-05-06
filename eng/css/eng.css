@@ -47,8 +47,10 @@ a {text-decoration: none; cursor:pointer;}
 /* ==== button ==== */
 [class^="iconBtn-"] {display: inline-flex; align-items: center; justify-content: center; height: 42px; padding:0 6px; border:1px solid var(--primary-color); border-radius: 100px;}
 [class^="iconBtn-"] [class^="ic-"] {margin-left:4px;}
+[class^="iconBtn-"]:hover {text-decoration: underline;}
 .iconBtn-pri {color:#fff; background-color: var(--primary-color);}
 .iconBtn-sec {color: var(--primary-color); background-color: #fff;}
+.iconBtn-sec:hover {background-color: #EDF7FF;}
 
 /* ==== header ==== */
 .engHeader {position: sticky; top:0; z-index: 10; background-color: #fff;}
@@ -160,6 +162,8 @@ a {text-decoration: none; cursor:pointer;}
 .visionMenu > strong {display: block; background: url(../images/main_ic_arr.png) no-repeat right center / 11px auto;}
 .visionMenu > span {display: block; margin-top:18px; font-size: .875rem;}
 .actMenu {display: flex; align-items: center; padding:16px 16px 16px 50px; border:1px solid #E2E2E2; border-radius: 16px; font-size: .875rem; box-shadow: 0px 2px 10px 0px #1111110A; background: url(../images/main_ic_arr.png) no-repeat right 20px center / 11px auto, url(../images/main_ic_pdf.png) no-repeat left 20px center / 16px auto;}
+.visionMenu:hover {text-decoration: underline;}
+.actMenu:hover {text-decoration: underline;}
 .videoMenu {display: block; height:200px; border:0; border-radius: 20px;}
 
 /* m */
@@ -195,6 +199,7 @@ a {text-decoration: none; cursor:pointer;}
 .mainSupport > li {flex:1;}
 .mainSupport > li > a {display: block; height: 100%; padding:32px 16px 36px; border-radius: 20px; line-height: 1.42; background-color: #F5F6F8;}
 .mainSupport > li > a > span {display: block; margin-top:24px; text-align: center; font-size: 1.125rem; font-weight: 700;}
+.mainSupport > li > a:hover > span {text-decoration: underline;}
 [class^="ic-main"] {display:block; width: 120px; height: 120px; margin:0 auto; background: no-repeat center / contain;}
 .ic-main01 {background-image: url(../images/main_ic_support_1.png);}
 .ic-main02 {background-image: url(../images/main_ic_support_2.png);}
@@ -221,6 +226,7 @@ a {text-decoration: none; cursor:pointer;}
 .mainNetwork > li > a {display: block; padding:48px 26px;}
 .mainNetwork > li > a > strong {display: block; color:#002169; background: url(../images/main_ic_arr_g.png) no-repeat center right / 1.5rem 1.5rem;}
 .mainNetwork > li > a > span {overflow: hidden; display: block; text-overflow: ellipsis;  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;  margin:22px 0 28px; font-size: 1.125rem;}
+.mainNetwork > li > a:hover > span {text-decoration: underline;}
 .mainNetwork > li > a > em {display: block; font-size: .875rem; color: #777777;}
 
 /* p */
@@ -270,6 +276,7 @@ a {text-decoration: none; cursor:pointer;}
 
 .mainCallCenter__nationwide {margin-top: auto; }
 .mainCallCenter__nationwide > a {display: block; padding:36px 70px 36px 70px; border:1px solid #E2E2E2; border-radius: 20px; font-size: 24px; font-weight: 500; color:#002169; background: url(../images/main_ic_location.png) no-repeat left 32px center / 20px 29px, url(../images/main_ic_arr.png) no-repeat right 44px center / 11px 12px;}
+.mainCallCenter__nationwide > a:hover {text-decoration: underline;}
 
 /* p */
 @media screen and (min-width:1280px) {
@@ -329,6 +336,7 @@ a {text-decoration: none; cursor:pointer;}
 .subMenu > ul {display: flex; gap:8px;}
 .subMenu > ul > li {flex: 1; border:1px solid #EDEDED; border-bottom:0; border-radius: 8px 8px 0 0;}
 .subMenu > ul > li > a {display: flex; align-items: center; justify-content: center; height:100%; min-height: 58px; max-height:82px; padding:17px 16px; text-align: center; font-size: 18px; color:#333;}
+.subMenu > ul > li:not(.on) > a:hover {text-decoration: underline; background-color: #EDF7FF;}
 .subMenu > ul > li.on {background-color: var(--primary-color);}
 .subMenu > ul > li.on a {font-weight: 700; font-size: 18px; color:#fff; }
 
@@ -619,6 +627,7 @@ a {text-decoration: none; cursor:pointer;}
 .videoBox .thumb {height:283px; overflow: hidden; margin-bottom:20px; border-radius: 20px;}
 .videoBox .thumb iframe {border:0;}
 .videoBox dl > dt {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-size: 20px; line-height: 1.4; font-weight: 700;}
+.videoBox:hover dl > dt {text-decoration: underline;}
 .videoBox dl > dd {margin-top:8px; font-size: 18px; color:#555; line-height: 1.4;}
 
 .paging {display: flex; align-items: center; justify-content: center; gap:20px;}
