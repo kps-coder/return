@@ -738,7 +738,7 @@ a {text-decoration: none; cursor:pointer;}
 .callCenter__tel .tel img {width: 100%;}
 
 .callCenter__hours {flex: 1;}
-.callCenter__hours .hours {position: relative; padding:16px 0 16px 92px; border-radius: 20px; line-height: 1.6; background: #fff url(../images/main_ic_center.png) no-repeat left 24px center / 45px auto;}
+.callCenter__hours .hours {position: relative; padding:16px 8px 16px 92px; border-radius: 20px; line-height: 1.6; background: #fff url(../images/main_ic_center.png) no-repeat left 24px center / 45px auto;}
 .callCenter__hours .hours::after {position: absolute; bottom:0; right:29px; content: ''; display: block; width: 148px; height: 193px; background: url(../images/poyong-i.png) no-repeat center / contain;}
 .callCenter__hours .hours > p > span {display: inline-block;}
 .callCenter__hours > p {margin-top:20px; color:#555; line-height: 1.4;}
