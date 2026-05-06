@@ -603,7 +603,7 @@ a {text-decoration: none; cursor:pointer;}
 /* videos */
 .tabMenu {margin-bottom:55px; border-radius: 20px; background-color: #F5F6F8;}
 .tabMenu > ul {display: flex; justify-content: center; gap:12px; padding:16px 20px;}
-.tabMenu > ul > li > a {display: flex; align-items: center; justify-content: center; min-width: 120px; height:43px; border:1px solid #E2E2E2; border-radius: 12px; color:#555; background-color: #fff;}
+.tabMenu > ul > li > a {display: flex; align-items: center; justify-content: center; min-width: 120px; height:43px; padding:0 12px; border:1px solid #E2E2E2; border-radius: 12px; color:#555; text-align: center; background-color: #fff;}
 .tabMenu > ul > li.on > a {font-weight: 800; color:var(--primary-color); border-color: var(--primary-color);}
 
 .videosList__head {display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap:12px; margin-bottom:16px;}
