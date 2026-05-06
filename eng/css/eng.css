@@ -194,7 +194,7 @@ a {text-decoration: none; cursor:pointer;}
 .mainSupport {display: flex; gap:20px; justify-content: space-between; margin-top:24px;}
 .mainSupport > li {flex:1;}
 .mainSupport > li > a {display: block; height: 100%; padding:32px 16px 36px; border-radius: 20px; line-height: 1.42; background-color: #F5F6F8;}
-.mainSupport > li > a > span {display: block; margin-top:24px; text-align: center; font-size: 1.125rem;}
+.mainSupport > li > a > span {display: block; margin-top:24px; text-align: center; font-size: 1.125rem; font-weight: 700;}
 [class^="ic-main"] {display:block; width: 120px; height: 120px; margin:0 auto; background: no-repeat center / contain;}
 .ic-main01 {background-image: url(../images/main_ic_support_1.png);}
 .ic-main02 {background-image: url(../images/main_ic_support_2.png);}
