@@ -25,7 +25,7 @@ ul, ol, li, dl, dt, dd { list-style:none; }
 a {text-decoration: none; cursor:pointer;}
 
 /* 대체텍스트 hidden */
-.blind {position: absolute;	clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;	overflow: hidden;}
+.blind {position: absolute; display: block;	clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;	overflow: hidden;}
 
 @media screen and (max-width: 768px) {
   body, html {font-size: 14px;}
