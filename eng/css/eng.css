@@ -613,6 +613,7 @@ a {text-decoration: none; cursor:pointer;}
 .tabMenu {margin-bottom:55px; border-radius: 20px; background-color: #F5F6F8;}
 .tabMenu > ul {display: flex; justify-content: center; gap:12px; padding:16px 20px;}
 .tabMenu > ul > li > a {display: flex; align-items: center; justify-content: center; min-width: 120px; height:43px; padding:0 12px; border:1px solid #E2E2E2; border-radius: 12px; color:#555; text-align: center; background-color: #fff;}
+.tabMenu > ul > li:not(.on) > a:hover {text-decoration: underline; background-color: #EDF7FF;}
 .tabMenu > ul > li.on > a {font-weight: 800; color:var(--primary-color); border-color: var(--primary-color);}
 
 .videosList__head {display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap:12px; margin-bottom:16px;}
@@ -705,7 +706,7 @@ a {text-decoration: none; cursor:pointer;}
 .centerList {padding:24px 40px; border:1px solid #E2E2E2; border-radius: 12px;}
 .centerList__tab {display: flex; flex-wrap: wrap; margin:0 -5px 40px 0;}
 .centerList__tab > li {position: relative; width: 20%; margin:-1px 0 0 -1px; border:1px solid #E0E0E0;}
-.centerList__tab > li > button {display: block; width: 100%; height:100%; min-height:32px; padding:6px 8px; text-align: center; font-size: 14px; color:#5F6368;}
+.centerList__tab > li > button {display: block; width: 100%; height:100%; min-height:32px; padding:6px 8px; text-align: center; color:#5F6368;}
 .centerList__tab > li > button:hover {text-decoration: underline; background-color: #EDF7FF;}
 .centerList__tab > li.select {z-index: 1; border-color:#002169;}
 .centerList__tab > li.select > button {color:#002169; font-weight: 700;}
@@ -715,8 +716,8 @@ a {text-decoration: none; cursor:pointer;}
 .centerList__list > li {display: none; border-top:1px solid #010101;}
 .centerList__list dl {display: flex; gap:12px; padding:20px 0 16px;}
 .centerList__list dl + dl {border-top: 1px solid #E2E2E2;}
-.centerList__list dl > dt {width: 30%; max-width: 260px; font-size: 20px; color: #002169; line-height: 1.4; font-weight: 600;}
-.centerList__list dl > dd {width: 70%; font-size: 20px;}
+.centerList__list dl > dt {width: 30%; max-width: 260px; color: #002169; line-height: 1.4; font-weight: 600;}
+.centerList__list dl > dd {width: 70%;}
 .centerList__list > li.select {display: block;}
 
 /* m */
@@ -728,7 +729,7 @@ a {text-decoration: none; cursor:pointer;}
   .centerList__tab > li {width: 50%; }
   .centerList__list dl {flex-direction: column;}
   .centerList__list dl > dt,
-  .centerList__list dl > dd {width: 100%; font-size: 16px;}
+  .centerList__list dl > dd {width: 100%;}
 }
 
 /* 1397 Inclusive Finance Call Center Introduction */
