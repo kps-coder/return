@@ -22,7 +22,7 @@ button, select {box-shadow: none; cursor: pointer;}
 select {color:#818181;font-family: 'Pretendard', 'Nanum Gothic', '나눔고딕', sans-serif; }
 
 ul, ol, li, dl, dt, dd { list-style:none; }
-a {text-decoration: none; cursor:pointer;}
+a {color: inherit; text-decoration: none; cursor:pointer;}
 
 /* 대체텍스트 hidden */
 .blind {position: absolute; display: block;	clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px;	overflow: hidden;}
@@ -496,6 +496,10 @@ a {text-decoration: none; cursor:pointer;}
   .organization > img {width: 600px;}
 }
 
+/* Intoduction */
+.Intoduction {margin-bottom:24px; padding:40px; border:1px solid #E2E2E2; border-radius: 20px;}
+.Intoduction p {margin-bottom:24px; color: #555; line-height: 1.6;}
+
 /* ci&mascot */
 .ciMascot {margin-bottom:24px; padding:40px; border:1px solid #E2E2E2; border-radius: 20px;}
 .ciMascot .titleH4 {margin-bottom:10px}
@@ -538,7 +542,7 @@ a {text-decoration: none; cursor:pointer;}
 
 .supportList > ul > li {display: flex; align-items: center; gap:24px; padding:24px 40px; border: 1px solid #E2E2E2; border-radius: 20px;}
 .supportList > ul > li ~ li {margin-top:24px;}
-.supportList__img {width: 140px; height:140px; border-radius: 100%; background-color: #F5F6F8;}
+.supportList__img {width: 140px; min-width: 140px; height:140px; border-radius: 100%; background-color: #F5F6F8;}
 .supportList dl > dt {font-weight: 600; font-size: 1.5rem; line-height: 1.4;}
 .supportList dl > dt > em {color: #E21B22;}
 .supportList dl > dt > small {display: block; font-size: 1rem; color:#555; font-weight: 400;}
@@ -574,6 +578,7 @@ a {text-decoration: none; cursor:pointer;}
 .inclusiveLife > dl > dt {width: 25%; min-width: 25%; max-width: 290px; color:#1C82CC; font-size: 1.5rem; font-weight: 600; line-height: 1.4;}
 .inclusiveLife > dl > dt::before {position: absolute; display: block; content: ''; width: 6px; height: 6px; margin-left:-14px; border-radius: 2px; background-color: #1C82CC;}
 .inclusiveLife > dl > dd {color:#555; line-height: 1.6;}
+.inclusiveLife > dl > dd a:hover {text-decoration: underline;}
 
 /* m */
 @media screen and (max-width: 767px) {
@@ -589,6 +594,8 @@ a {text-decoration: none; cursor:pointer;}
 .personalizedLoan__img ol > li {line-height: 1.4; font-size: 14px;}
 
 .personalizedLoan__text {max-width: 900px; margin:40px auto 0; text-align: center; color: #555; line-height: 1.4;}
+.personalizedLoan__text a:hover {text-decoration: underline;}
+.personalizedLoan .inclusiveLife {margin-top:40px;}
 
 /* p */
 @media screen and (min-width: 1280px) {

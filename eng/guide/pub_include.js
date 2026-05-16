@@ -21,6 +21,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Message from the CEO</a></li>
+                    <li><a href="#n">Intoduction</a></li><!-- 20260518 수정안 : 탭 추가 -->
                     <li><a href="#n">Mission and Vision</a></li>
                     <li><a href="#n">Micro Credit Support Act</a></li>
                     <li><a href="#n">History</a></li>
@@ -32,13 +33,14 @@ window.addEventListener('DOMContentLoaded', function() {
               <li>
                 <button type="button" class="engLnb__depth1" aria-expanded="false">Services</button>
                 <div class="engLnb__sub">
+                  <!-- 20260518 수정안 : 명칭 변경 -->
                   <ul>
-                    <li><a href="#n">Inclusive Funds Support</a></li>
-                    <li><a href="#n">Guaranteed Loan Support</a></li>
-                    <li><a href="#n">Credit&Debt Management Consulting Service</a></li>
-                    <li><a href="#n">Inclusive Life Support</a></li>
-                    <li><a href="#n">Personalized Loan Service</a></li>
-                    <li><a href="#n">Protection of Original</a></li>
+                    <li><a href="#m">Guaranteed Loan Support</a></li>
+                    <li><a href="#m">Inclusive Loan Support</a></li>
+                    <li><a href="#m">Asset Accumulation Support</a></li>
+                    <li><a href="#m">Non-Financial Services</a></li>
+                    <li><a href="#m">Personalized Guidance</a></li>
+                    <li><a href="#m">Protection of Original Right Holders</a></li>
                   </ul>
                 </div>
               </li>
@@ -66,7 +68,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="engLnb__sub">
                   <ul>
                     <li><a href="#n">Headquater</a></li>
-                    <li><a href="#n">Financial Inclusive Centers</a></li>
+                    <li><a href="#n">Regional Offices</a></li><!-- 20260518 수정안 : 명칭 변경 -->
                     <li><a href="#n">1397 Inclusive Finance Call Center Introduction</a></li>
                   </ul>
                 </div>
@@ -84,6 +86,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <p>About KINFA</p>
                 <ul>
                   <li><a href="#n">Message from the CEO</a></li>
+                  <li><a href="#n">Intoduction</a></li><!-- 20260518 수정안 : 탭 추가 -->
                   <li><a href="#n">Mission and Vision</a></li>
                   <li><a href="#n">Micro Credit Support Act</a></li>
                   <li><a href="#n">History</a></li>
@@ -98,13 +101,14 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="engGnb__sub">
               <div class="inner">
                 <p>Services</p>
+                <!-- 20260518 수정안 : 명칭 변경 -->
                 <ul>
-                  <li><a href="#n">Inclusive Funds Support</a></li>
-                  <li><a href="#n">Guaranteed Loan Support</a></li>
-                  <li><a href="#n">Credit&Debt Management Consulting Service</a></li>
-                  <li><a href="#n">Inclusive Life Support</a></li>
-                  <li><a href="#n">Personalized Loan Service</a></li>
-                  <li><a href="#n">Protection of Original</a></li>
+                  <li><a href="#m">Guaranteed Loan Support</a></li>
+                  <li><a href="#m">Inclusive Loan Support</a></li>
+                  <li><a href="#m">Asset Accumulation Support</a></li>
+                  <li><a href="#m">Non-Financial Services</a></li>
+                  <li><a href="#m">Personalized Guidance</a></li>
+                  <li><a href="#m">Protection of Original Right Holders</a></li>
                 </ul>
               </div>              
             </div>
@@ -141,7 +145,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <p>Contact</p>
                 <ul>
                   <li><a href="#n">Headquater</a></li>
-                  <li><a href="#n">Financial Inclusive Centers</a></li>
+                  <li><a href="#n">Regional Offices</a></li><!-- 20260518 수정안 : 명칭 변경 -->
                   <li><a href="#n">1397 Inclusive Finance Call Center Introduction</a></li>
                 </ul>
               </div>              
