@@ -194,10 +194,18 @@
 
         <div class="mainMenu">
           <div class="mainMenu__row">
-            <a href="#n" class="visionMenu">
+            <!-- <a href="#n" class="visionMenu">
               <strong>Mission and Vision</strong>
               <span>Empowering Financial Independence, Fostering Inclusive Growth</span>
-            </a>
+            </a> -->
+            <div class="mainMeun__download">
+              <strong>KINFA App Download</strong>
+              <p>Download the Korea Inclusive Finance Agency App.</p>
+              <div class="btns">
+                <button type="button" onclick="layerOpen('appDownload')"><i class="ic-apple"></i> App Store</button>
+                <button type="button" onclick="layerOpen('appDownload')"><i class="ic-google"></i> Google Play</button>
+              </div>
+            </div>
           </div>
           <div class="mainMenu__row">
             <a href="#n" class="actMenu">Micro Credit Support Act</a>
@@ -303,6 +311,20 @@
     <!-- //footer -->
   </div>
 
+  <div class="layerWrap" id="appDownload">
+    <div class="layerContainer">
+      <h1>Kinfa App Download</h1>
+      <div class="layerContent">
+        <div class="appDownload">
+          <img src="../images/img_qr.png" alt="qr code" class="appDownload__qr">
+          <p class="appDownload__text">When you scan the QR code with your camera,<br> you will be directed to the app download page.</p>
+          <button type="button" class="btn-cta-pri" onclick="layerClose('appDownload')">확인하기</button>
+        </div>
+      </div>
+      <button type="button" class="layerClose" onclick="layerClose('appDownload')"><span class="blind">닫기</span></button>
+    </div>
+  </div>
+
   <script>
     const mainSwiper = new Swiper('.mainSwiper', {
       // Optional parameters
@@ -338,24 +360,30 @@
       
     });
 
-      // 버튼 요소 가져오기
-      const btnPlay = document.querySelector('.swiper-button-play');
+    // 버튼 요소 가져오기
+    const btnPlay = document.querySelector('.swiper-button-play');
 
-      // 정지 버튼 클릭 시
-      btnPlay.addEventListener('click', () => {
-        let dataPlay = btnPlay.getAttribute('data-play');
-        //alert(dataPlay);
-        if (dataPlay == 'start') {
-           mainSwiper.autoplay.stop();
-           btnPlay.setAttribute('data-play', 'stop');
-        } else {
-          mainSwiper.autoplay.start();
-          btnPlay.setAttribute('data-play', 'start');
-        }     
+    // 정지 버튼 클릭 시
+    btnPlay.addEventListener('click', () => {
+      let dataPlay = btnPlay.getAttribute('data-play');
+      //alert(dataPlay);
+      if (dataPlay == 'start') {
+          mainSwiper.autoplay.stop();
+          btnPlay.setAttribute('data-play', 'stop');
+      } else {
+        mainSwiper.autoplay.start();
+        btnPlay.setAttribute('data-play', 'start');
+      }     
 
-      });
+    });
 
-      
+    //앱다운로드 레이어
+    function layerOpen(id) {
+      $('#' + id).addClass('on');
+    }  
+    function layerClose(id) {
+      $('#' + id).removeClass('on');
+    }    
   </script>
 </body>
 </html>
