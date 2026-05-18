@@ -567,7 +567,7 @@ a {color: inherit; text-decoration: none; cursor:pointer;}
 .intoduction__img {margin-bottom:40px; text-align: center; border-radius: 12px; background-color: #F5F6F8;}
 .intoduction__img img {width: 90%; max-width: 614px;}
 .intoduction p {margin-bottom:24px; text-align: center; color: #555; line-height: 1.6;}
-.intoduction p strong {font-size: 1.5rem; font-weight: 400;}
+.intoduction p strong {font-size: 1.5rem; font-weight: 400; color:#010101;}
 
 /* m */
 @media screen and (max-width: 767px) {
