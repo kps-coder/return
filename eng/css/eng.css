@@ -802,10 +802,10 @@ a {color: inherit; text-decoration: none; cursor:pointer;}
 
 
 .centerList__list > li {display: none; border-top:1px solid #010101;}
-.centerList__list dl {display: flex; gap:12px; padding:20px 0 16px;}
+.centerList__list dl {padding:20px 0 16px;}
 .centerList__list dl + dl {border-top: 1px solid #E2E2E2;}
-.centerList__list dl > dt {width: 30%; max-width: 260px; color: #002169; line-height: 1.4; font-weight: 600;}
-.centerList__list dl > dd {width: 70%;}
+.centerList__list dl > dt {color: #002169; line-height: 1.4; font-weight: 600;}
+.centerList__list dl > dd {margin-top:4px; line-height: 1.4;}
 .centerList__list > li.select {display: block;}
 
 /* m */
@@ -815,9 +815,6 @@ a {color: inherit; text-decoration: none; cursor:pointer;}
   .centerList {padding:20px 24px;}
   .centerList__tab {margin-right:-2px;}
   .centerList__tab > li {width: 50%; }
-  .centerList__list dl {flex-direction: column;}
-  .centerList__list dl > dt,
-  .centerList__list dl > dd {width: 100%;}
 }
 
 /* 1397 Inclusive Finance Call Center Introduction */
