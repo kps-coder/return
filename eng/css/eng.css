@@ -844,9 +844,10 @@ a {color: inherit; text-decoration: none; cursor:pointer;}
 /* Micro Credit Support Act */
 .establishment-timeline {position: relative; margin-bottom:72px; padding:48px 76px; border-radius: 20px; background-color: #F5F6F8;}
 .establishment-timeline::before {content: ''; display: block; position: absolute; transform: translate(-27px, 20px); width: 2px; height:calc(100% - 96px); background: url(../images/line.png) repeat-y 0 0;}
-.establishment-timeline > dl > dt {position: relative; margin-bottom:8px; font-weight: 800; font-size: 1.5rem; color: #1C82CC;}
+.establishment-timeline::after {content: ''; display: block; position: absolute; right:56px; bottom: 0; transform: translateY(38%); width: 150px; height: 217px; background: url(../images/poyong_2.png) no-repeat center / contain;}
+.establishment-timeline > dl > dt {position: relative; margin-bottom:8px; font-weight: 800; font-size: 1.5rem; color: #1C82CC; letter-spacing: -.5px;}
 .establishment-timeline > dl > dt::before {content: ''; display: block; position: absolute; top:50%; transform: translate(-32px, -50%); width: 12px; height: 12px; border:3px solid #cadfef; border-radius: 100%; box-sizing: border-box; background-color: #1C82CC;}
-.establishment-timeline > dl > dd {font-size: 1.125rem; color: #555; line-height: 1.4;}
+.establishment-timeline > dl > dd {font-size: 1.125rem; color: #555; line-height: 1.4; letter-spacing: -.5px;}
 .establishment-timeline > dl + dl {margin-top:40px}
 
 .articleContent__desc {margin-bottom: 22px; font-size: 1.125rem; color: #555;}
@@ -870,6 +871,10 @@ a {color: inherit; text-decoration: none; cursor:pointer;}
 .accordion.close .accordion__head h4 {color:#333;}
 
 /* m */
+@media screen and (max-width: 1279px) {
+  .establishment-timeline::after {display: none;}
+  
+}
 @media screen and (max-width: 767px) {
   .establishment-timeline {padding: 24px 20px 24px 54px;}
   .accordion__head h4 {font-size: 18px;}
